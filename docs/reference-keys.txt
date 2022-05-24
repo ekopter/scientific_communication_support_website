@@ -3,6 +3,3 @@ contents
 alies-programs
 writing-support
 how-to-sign-up
-references-and-session-info
-session-info
-references
