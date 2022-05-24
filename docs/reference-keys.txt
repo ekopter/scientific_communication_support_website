@@ -1,5 +1,4 @@
 welcome
 contents
 alies-programs
-writing-support
-how-to-sign-up
+scientific-writing

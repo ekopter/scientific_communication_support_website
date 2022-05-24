@@ -1,0 +1,62 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+
+
+# Scientific Writing
+
+"As a scientist, you are a professional writer." - Joshua Schimel, *Writing Science*
+
+“The purpose of science writing is not explaining what *you* did or what *you* learned, but rather what you want *your audience* to understand. Start by asking: *Who is my audience? What are their goals in reading my writing? What message do I want them to take away from my writing?*” - [Turbek et al. 2016](https://doi.org/10.1002/bes2.1258)
+
+“A scientific research paper is the product of erasure. It’s all that is left over after everything has been stripped off except for exactly what needs to be there.” - Judy Swan
+
+"You succeed as a scientist by getting [your papers] cited." - Joshua Schimel, *Writing Science*
+
+The above quotes highlight several key aspects of what makes for effective scientific writing:
+
+1. You must understand the importance of writing well. Invest in yourself as a writer. Take the time to learn and improve.
+2. You must write *for your audience* - every word, sentence, and paragraph that you write should be chosen and designed to convey a specific message to your audience.
+3. You must write concisely.
+4. It is not enough to get published - people actually need to *use* your work. Only when other scientists are citing your work - whether to discuss, evaluate, or build on it - has your research truly become part of the scientific body of knowledge.
+
+## Books {-}
+
+When I find books about scientific writing that I think are really good and helpful, I will list them here and also ask that they be ordered for our department. So you should be able to find the following books on our 5-th floor mini library (if not yet, then soon!).
+
+*Writing Science* by Joshua Schimel  
+*Scientific Writing and Communication* by Angelika H. Hoffman
+
+## Papers {-}
+
+[Simple rules for concise scientific writing; Hotaling 2020](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10165) is a great paper that outlines 10 rules for approaching and writing scientific papers.
+
+[Finding the "Pitch" in Ecological Writing, Cahill et al. 2011](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9623-92.2.196) is about how to approach writing a scientific paper, such that it is catchy and sticks with your readers.
+
+
+## Online resources {-}
+
+The [Duke Graduate School Scientific Writing Resource](https://sites.duke.edu/scientificwriting/) consists of 3 sections (lessons) all aimed at teaching you how to write more effectively.
+
+In this lecture, entitled [Scientific Writing: Beyond Tips and Tricks, by Judy Swan](https://www.youtube.com/watch?v=jLPCdDp_LE0&ab_channel=PublicCommunicationforResearchers), she discusses what makes for good writing, and how to get readers to pay the most attention to what you think is the most important.
+
+
+## Courses {-}
+
+[Writing in the Sciences](https://www.coursera.org/learn/sciwrite), offered by Stanford University on Coursera, is a free class that covered big-picture and detailed nitty-gritty best practice of scientific writing. The focus is on original research manuscripts, but review papers and grant proposals and other types of written work are also covered. The course also reviews the writing process, with tips for out to approach writing projects. Although the examples are mostly taken from medical/clinical research, the lessons are taught clearly and can easily be applied to ecology/animal behavior research.
+
+
+## Suggestions? {-}
+
+If you come across a good scientific writing resource, please let me know about it!
+
+## Other {-}
+
+The following are resources that I've come across, but haven't yet had a chance to read through and fully vet. When I do, if I like them, I'll move them to the lists above. For now, I'm just keeping track of them here...
+
+[10 Simple Steps to Writing a Scientific Paper](https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1)
+
+[How to Write a Good Scientific Paper](https://spie.org/samples/9781510619142.pdf)

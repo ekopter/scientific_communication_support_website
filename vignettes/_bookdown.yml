@@ -2,7 +2,7 @@ book_filename: "scientific_communication_support_website"
 chapter_name: ""
 repo: https://github.com/ekopter/scientific_communication_support_website
 output_dir: ../docs
-rmd_files: ["index.Rmd", "2_programs.Rmd"]
+rmd_files: ["index.Rmd", "2_programs.Rmd", "3_Sci_writing1.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
 delete_merged_file: True
