@@ -1,8 +1,8 @@
 ---
-title: "Ecology of Animal Societies"
-subtitle: "Scientific Communication Support"
+title: "Scientific Communication Support"
+subtitle: "for the Department for the Ecology of Animal Societies"
 author: "Alison M. Ashbury"
-date: "2022-05-24"
+date: "last update: 2022-05-24"
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
@@ -18,7 +18,13 @@ editor_options:
 
 
 
-# Intro
+Please note, this website is still very much under construction!
+
+# Welcome!
+
+This website is meant to be a source of information and resources for those looking to improve or inspire their scientific communication.
+
+
 
 Hello 👋,
 
