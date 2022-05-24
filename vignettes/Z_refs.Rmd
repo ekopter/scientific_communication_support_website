@@ -17,6 +17,7 @@ knitr::opts_knit$set(root.dir = '../')
 # the bookdown script ({bookdown} and {emo} just for demo)
 library(bookdown)
 library(emo)
+library(icons)
 ```
 
 ```{r}
