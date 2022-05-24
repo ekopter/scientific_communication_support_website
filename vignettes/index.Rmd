@@ -14,6 +14,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
+library(icons)
 knitr::opts_chunk$set(echo = TRUE,
                       comment = "#>",
                       collapse = TRUE)
@@ -30,13 +31,13 @@ create_html_header("show") # either "show" or "fold"
 
 # Welcome!
 
-I'm Alie, the EAS department's Scientific Writer. My job is to support other department members in the communication of their science to scientific audiences - including support with everything from journal article manuscripts, to scientific conference presentations, to designing (and coding) data visualizations.
+I'm Alie, the EAS department's Scientific Writer. My job is to support other department members in the communication of their science to scientific audiences. This includes support with everything from writing papers and grant proposals, to putting together conference presentations, to designing (and coding) data visualizations.
 
 If you have any questions or comments, or are interested in receiving my help for something you're working on, please feel free to contact me.
 
-*EAS Slack:* @Alie
-*MPG Email:* aashbury@ab.mpg.de
-*Bückle offices:* 5.27
+`r icons::fontawesome$brands$slack` Alie
+`r icons::fontawesome$solid$envelope` aashbury@ab.mpg.de
+`r icons::fontawesome("map-marker-alt", style = "solid")` Bückle 5.27
 
 This website is meant to be a source of support for those looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. 
 
