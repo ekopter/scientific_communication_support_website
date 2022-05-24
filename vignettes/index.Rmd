@@ -36,7 +36,9 @@ I'm Alie, the EAS department's Scientific Writer. My job is to support other dep
 If you have any questions or comments, or are interested in receiving my help for something you're working on, please feel free to contact me.
 
 `r icons::fontawesome$brands$slack` Alie
-`r icons::fontawesome$solid$envelope` aashbury@ab.mpg.de
+
+`r icons::fontawesome$solid$envelope` aashbury@ab.mpg.de 
+
 `r icons::fontawesome("map-marker-alt", style = "solid")` Bückle 5.27
 
 This website is meant to be a source of support for those looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. 
