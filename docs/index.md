@@ -1,8 +1,8 @@
 ---
 title: "Scientific Communication Support"
-subtitle: "for the Department for the Ecology of Animal Societies"
-author: "Alison M. Ashbury"
-date: "last update: 2022-05-24"
+subtitle: "Ecology of Animal Societies"
+author: "Alie Ashbury"
+date: "last updated: 2022-05-24"
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
@@ -18,54 +18,34 @@ editor_options:
 
 
 
-Please note, this website is still very much under construction!
+
 
 # Welcome!
 
-This website is meant to be a source of information and resources for those looking to improve or inspire their scientific communication.
+I'm Alie, the EAS department's Scientific Writer. My job is to support other department members in the communication of their science to scientific audiences - including support with everything from journal article manuscripts, to scientific conference presentations, to designing (and coding) data visualizations.
+
+If you have any questions or comments, or are interested in receiving my help for something you're working on, please feel free to contact me.
+
+*EAS Slack:* @Alie
+*MPG Email:* aashbury@ab.mpg.de
+*Bückle offices:* 5.27
+
+This website is meant to be a source of support for those looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. 
+
+Please note, this website is still very much under construction!
 
 
+# Contents
 
-Hello 👋,
+The information on this website is divided into several categories:
 
-you are looking at a minimal {[bookdown](https://bookdown.org/)} template that can be used to document your coding projects.
 
-The documentation of this template is broken down into several chunks:
+- [Alie's Programs](./2_programs.html): Details about the specific programs and services that Alie offers to department members
+- [Scientific Writing]: Coming soon!
+- [Scientific Presentations]: Coming soon!
+- [Data Visualization]: Coming soon!
 
-- [1 Intro](./index.html): General intro to the project/ template (you are looking at this right now...)
-- [2 Configuration](./configuration.html): Here you'll see which parts you should customize if you choose to adopt this template for your own projects.
-- [3 Comilation](./compilation.html): How to actually compile the bookdown document once you have added you own content.
-- [4 Markdown Tips and Tricks](./markdown-tips-and-tricks.html): This section includes an introduction into a couple of minor features that are build into this template and that go a little beyond the standard markdown elements. 
-- [5 Template Script](./template-script.html): This is a blank section. Its purpose is to provide a minimal template that can be copied to add more sections.
-- [6 References](./references.html): This is where all cited sources of your project will be listed.
-
-## Dependencies
-
-To be able to use this in your own projects you will need to `R` as well as the {bookdown} package installed:
-
-```r
-install.packages("bookdown")
-```
-
-Note, that the template also uses the (non-cran) package {[emo](https://github.com/hadley/emo)} to be able to use emojis within Rmarkdown.
-
-To be able to do this as well, install {emo} with the {[remotes](https://remotes.r-lib.org/)} package:
-
-```r
-install.packages("remotes")
-remotes::install_github("hadley/emo")
-```
-
-Feel free to adapt this template to your needs 😄.
-
-## First Special Feature
-
-Individual **code blocks can be collapsed and expanded** using the collapse button (this specific demo slider blow is a dummy though --- look in the next chapters for working examples...):
-
-<div class="demoslider"><div class="demobg"><div class="demonob"></div></div></div>
-
-In the upper right corner, there is also the option to **toggle the code collapsing globally**:  <button type="button" class="btn btn-default btn-xs dropdown-toggle">global code</button> 
-
-(Collapsing your code can really help to get an eagle-perspective on your scripts and to asses the degree of documentation as well as the flow of thoughts throughout / the logic behind your script.)
 
 ---
+
+I built this website with bookdown, using the EAS template made by [Kosmas Hench](https://github.com/k-hench).
