@@ -5,26 +5,25 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2 Configuration | Ecology of Animal Societies</title>
-  <meta name="description" content="A template for Rmarkdown-based project documentation" />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="description" content="A website for info and resources related to scientific communication" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2 Configuration | Ecology of Animal Societies" />
   <meta property="og:type" content="book" />
   
-  
-  <meta property="og:description" content="A template for Rmarkdown-based project documentation" />
-  <meta name="github-repo" content="k-hench/eas_bookdown" />
+  <meta property="og:description" content="A website for info and resources related to scientific communication" />
+  <meta name="github-repo" content="ekopter/scientific_communication_support_website" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="2 Configuration | Ecology of Animal Societies" />
   
-  <meta name="twitter:description" content="A template for Rmarkdown-based project documentation" />
+  <meta name="twitter:description" content="A website for info and resources related to scientific communication" />
   
 
-<meta name="author" content="Author Name" />
+<meta name="author" content="Alison M. Ashbury" />
 
 
-<meta name="date" content="2021-02-08" />
+<meta name="date" content="2022-05-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="compilation.html"/>
-<script src="libs/header-attrs-2.6.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,7 +49,9 @@
 
 
 
-
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 <script>
 /* ========================================================================
@@ -588,6 +589,7 @@ $(document).ready(function () {
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -646,6 +648,29 @@ code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -718,19 +743,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="configuration" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Configuration</h1>
+<div id="configuration" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Configuration<a href="configuration.html#configuration" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>These are the parts of the template that you will want to adjust so that the document actually represents your own content.</p>
-<div id="important-files" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Important files</h2>
+<div id="important-files" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Important files<a href="configuration.html#important-files" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You will <em>definitively</em> need to adjust the following files before starting:</p>
 <ul>
 <li><code>vignettes/_bookdown.yml</code>:</li>
 <li><code>vignettes/_output.yml</code></li>
 <li><code>vignettes/index.Rmd</code></li>
 </ul>
-<div id="configuration-within-_bookdown.yml" class="section level3" number="2.1.1">
-<h3><span class="header-section-number">2.1.1</span> Configuration within <code>_bookdown.yml</code></h3>
+<div id="configuration-within-_bookdown.yml" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Configuration within <code>_bookdown.yml</code><a href="configuration.html#configuration-within-_bookdown.yml" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Here, you adjust the Rmd files that are collectively rendered into the bookdown document.
 Update the entry <code>rmd_files:</code> to add more/ change Rmarkdown files.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb3-1"><a href="configuration.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rmd_files</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">&quot;index.Rmd&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;0_config.Rmd&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;1_compile.Rmd&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;2_md_tips.Rmd&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;3_template_script.Rmd&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;Z_refs.Rmd&quot;</span><span class="kw">]</span></span></code></pre></div>
@@ -741,8 +766,8 @@ Update the entry <code>rmd_files:</code> to add more/ change Rmarkdown files.</p
 <p>You probably don’t need a reference to this template in your project.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb5-1"><a href="configuration.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">repo</span><span class="kw">:</span><span class="at"> https://github.com/k-hench/eas_bookdown</span></span></code></pre></div>
 </div>
-<div id="configuration-within-_output.yml" class="section level3" number="2.1.2">
-<h3><span class="header-section-number">2.1.2</span> Configuration within <code>_output.yml</code></h3>
+<div id="configuration-within-_output.yml" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Configuration within <code>_output.yml</code><a href="configuration.html#configuration-within-_output.yml" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is the file that mainly creates the TOC on the left hand side of the document.
 Here, you can adjust the topmost entry (which currently points to the department homepage):</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb6-1"><a href="configuration.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">toc</span><span class="kw">:</span></span>
@@ -753,8 +778,8 @@ Here, you can adjust the topmost entry (which currently points to the department
 <div class="sourceCode" id="cb7"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb7-1"><a href="configuration.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">after</span><span class="kw">: </span><span class="at"> </span><span class="ch">|</span></span>
 <span id="cb7-2"><a href="configuration.html#cb7-2" aria-hidden="true" tabindex="-1"></a>  &lt;img style=&quot;position:absolute; bottom:0px; left:0px; width:100%; pointer-events:none;&quot; src=&quot;./img/eas_cropped.png&quot;&gt;</span></code></pre></div>
 </div>
-<div id="configuration-within-index.rmd" class="section level3" number="2.1.3">
-<h3><span class="header-section-number">2.1.3</span> Configuration within <code>index.Rmd</code></h3>
+<div id="configuration-within-index.rmd" class="section level3 hasAnchor" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Configuration within <code>index.Rmd</code><a href="configuration.html#configuration-within-index.rmd" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is where you set the information about title, author and date that will be displayed within the document.
 These are set in the <code>yaml</code>-header of the document (the part at the beginning that is sandwiched by the two lines with <code>---</code>).</p>
 <p>Things that you’ll want to adjust here are:</p>
@@ -767,17 +792,17 @@ These are set in the <code>yaml</code>-header of the document (the part at the b
 </ul>
 </div>
 </div>
-<div id="clean-up" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Clean Up</h2>
+<div id="clean-up" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Clean Up<a href="configuration.html#clean-up" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Before using this template for your own project, you might want to clean up content that was filled specifically for the documentation of this template.</p>
 <p>Specifically, you might want to delete the content within the <code>./docs</code> folder to avoid carrying over compiled the documentation of this template into your own project.</p>
 <p>Additionally you might want to remove the single entry of the bibliography file <code>./vignettes/book.bib</code> as this citation was only included for demonstration purposes and is likely to be irrelevant for your project.</p>
 </div>
-<div id="nice-to-haves" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Nice-to-haves</h2>
+<div id="nice-to-haves" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Nice-to-haves<a href="configuration.html#nice-to-haves" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The following are adjustments that you might <em>want</em> to customize, but you do not necessarily need to.</p>
-<div id="default-code-folding" class="section level3" number="2.3.1">
-<h3><span class="header-section-number">2.3.1</span> Default Code Folding</h3>
+<div id="default-code-folding" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Default Code Folding<a href="configuration.html#default-code-folding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This template comes with the option to toggle the folding of code blocks.
 Currently, the default is set to expand the code-blocks - if you want them folded by default you can adjust by switching to <code>create_html_header("fold")</code> within the file <code>index.Rmd</code>.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb8-1"><a href="configuration.html#cb8-1" aria-hidden="true" tabindex="-1"></a>`​``{r set_fold, include=FALSE}</span>
@@ -785,8 +810,8 @@ Currently, the default is set to expand the code-blocks - if you want them folde
 <span id="cb8-3"><a href="configuration.html#cb8-3" aria-hidden="true" tabindex="-1"></a>create_html_header(&quot;show&quot;) # either &quot;show&quot; or &quot;fold&quot;</span>
 <span id="cb8-4"><a href="configuration.html#cb8-4" aria-hidden="true" tabindex="-1"></a>`​``</span></code></pre></div>
 </div>
-<div id="color-scheme" class="section level3" number="2.3.2">
-<h3><span class="header-section-number">2.3.2</span> Color Scheme</h3>
+<div id="color-scheme" class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Color Scheme<a href="configuration.html#color-scheme" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you want to change the color scheme, you can update the <code>css</code> stylesheet that is used within the bookdown project (<code>style.css</code>).
 Currently the template uses two main colors that come in dark and light flavor respectively (<span class="c1l">color1 (light)</span>, <span class="c1d">color1 (dark)</span>, <span class="c2l">color2 (light)</span>, <span class="c2d">color2 (dark)</span>)</p>
 <p>To make this a little more convenient, you can use the provided pre-cursor <code>scss</code> file (<code>scss</code> can use variables while <code>css</code> can not — so this is convenient to swap eg. colors consistently in a style-sheet).</p>
@@ -806,7 +831,7 @@ In the <em>Terminal</em> window you access the shell of your system directly. Ma
 </div>
 <p>The actual conversion <code>scss</code> <span class="math inline">\(\rightarrow\)</span> <code>css</code>:</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb10-1"><a href="configuration.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> vignettes</span>
-<span id="cb10-2"><a href="configuration.html#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">sass</span> --watch style.scss:style.css</span></code></pre></div>
+<span id="cb10-2"><a href="configuration.html#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ex">sass</span> <span class="at">--watch</span> style.scss:style.css</span></code></pre></div>
 <p>After this, <code>sass</code> will keep running and <em>listen</em> to changes in your <code>css</code> file.
 Hit <code>&lt;ctrl&gt;&lt;c&gt;</code> to make it stop.</p>
 <hr />
@@ -824,7 +849,6 @@ Hit <code>&lt;ctrl&gt;&lt;c&gt;</code> to make it stop.</p>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -843,6 +867,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": "github"
 },
 "fontsettings": {
@@ -863,6 +888,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }

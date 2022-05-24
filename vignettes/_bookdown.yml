@@ -1,6 +1,6 @@
-book_filename: "eas_template"
+book_filename: "scientific_communication_support_website"
 chapter_name: ""
-repo: https://github.com/k-hench/eas_bookdown
+repo: https://github.com/ekopter/scientific_communication_support_website
 output_dir: ../docs
 rmd_files: ["index.Rmd", "0_config.Rmd", "1_compile.Rmd", "2_md_tips.Rmd", "3_template_script.Rmd", "Z_refs.Rmd"]
 clean: [packages.bib, bookdown.bbl]

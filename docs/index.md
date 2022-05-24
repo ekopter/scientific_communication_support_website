@@ -1,14 +1,14 @@
 ---
 title: "Ecology of Animal Societies"
-subtitle: "Bookdown Template"
-author: "Author Name"
-date: "2021-02-08"
+subtitle: "Scientific Communication Support"
+author: "Alison M. Ashbury"
+date: "2022-05-24"
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: k-hench/eas_bookdown
-description: "A template for Rmarkdown-based project documentation"
+github-repo: ekopter/scientific_communication_support_website
+description: "A website for info and resources related to scientific communication"
 editor_options: 
   chunk_output_type: console
 ---

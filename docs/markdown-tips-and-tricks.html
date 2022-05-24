@@ -5,26 +5,25 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Markdown Tips and Tricks | Ecology of Animal Societies</title>
-  <meta name="description" content="A template for Rmarkdown-based project documentation" />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="description" content="A website for info and resources related to scientific communication" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Markdown Tips and Tricks | Ecology of Animal Societies" />
   <meta property="og:type" content="book" />
   
-  
-  <meta property="og:description" content="A template for Rmarkdown-based project documentation" />
-  <meta name="github-repo" content="k-hench/eas_bookdown" />
+  <meta property="og:description" content="A website for info and resources related to scientific communication" />
+  <meta name="github-repo" content="ekopter/scientific_communication_support_website" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="4 Markdown Tips and Tricks | Ecology of Animal Societies" />
   
-  <meta name="twitter:description" content="A template for Rmarkdown-based project documentation" />
+  <meta name="twitter:description" content="A website for info and resources related to scientific communication" />
   
 
-<meta name="author" content="Author Name" />
+<meta name="author" content="Alison M. Ashbury" />
 
 
-<meta name="date" content="2021-02-08" />
+<meta name="date" content="2022-05-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="compilation.html"/>
 <link rel="next" href="template-script.html"/>
-<script src="libs/header-attrs-2.6.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,7 +49,9 @@
 
 
 
-
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 <script>
 /* ========================================================================
@@ -588,6 +589,7 @@ $(document).ready(function () {
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
@@ -646,6 +648,29 @@ code span.st { color: #4070a0; } /* String */
 code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -718,11 +743,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="markdown-tips-and-tricks" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Markdown Tips and Tricks</h1>
+<div id="markdown-tips-and-tricks" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Markdown Tips and Tricks<a href="markdown-tips-and-tricks.html#markdown-tips-and-tricks" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>This template comes with a few pre-configured custom elements that can be easily used to structure your markdown documents.</p>
-<div id="beware-think-boxes" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Beware/ Think Boxes</h2>
+<div id="beware-think-boxes" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Beware/ Think Boxes<a href="markdown-tips-and-tricks.html#beware-think-boxes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>These custom text boxes are adopted from <a href="http://desiree.rbind.io/post/2019/making-tip-boxes-with-bookdown-and-rmarkdown/">Desirée De Leon</a> — on her blog-post they are explained in more words and nicer pictures…</p>
 <p>The <em>beware</em> and <em>think</em> boxes can be used by wrapping markdown text in <code>:::beware</code>/<code>:::think</code>content<code>:::</code> flags.</p>
 <pre><code>:::beware
@@ -739,8 +764,8 @@ This is a *think* box demo!
 </div>
 <p>(If you are wondering what is happening under the hood: markdown will translate a <code>:::something</code>…<code>:::</code> section into <code>html</code> in the form of <code>&lt;div class="something"&gt;</code>…<code>&lt;/div&gt;</code>.)</p>
 </div>
-<div id="saving-and-loading-intermediate-steps" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Saving and Loading Intermediate Steps</h2>
+<div id="saving-and-loading-intermediate-steps" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Saving and Loading Intermediate Steps<a href="markdown-tips-and-tricks.html#saving-and-loading-intermediate-steps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To minimize run-time when compiling my project documentation, I often pre-compute and save several intermediate steps of the scripts (eg. to a specific path — for instance a folder called <code>./steps/</code> within the main directory).
 I the load those intermediate steps during compilation (s. <a href="compilation.html">3 Compilation</a> for how to compile the document).</p>
 <p>Because of this, I want to indicate if a specific code block is not actually run by {knitr} (but their results are loaded in a hidden code block afterwards).
@@ -780,17 +805,23 @@ Remember to re-run those code-blocks in such cases.</p>
 </ul>
 </div>
 </div>
-<div id="citations" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Citations</h2>
+<div id="citations" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Citations<a href="markdown-tips-and-tricks.html#citations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>It is possible to cite sources within Rmarkdown using the notion <code>[@sourceID1; @sourceID2]</code> based on the BibTex citations that are stored within the file <code>book.bib</code>.
-In this {bookdown} <span class="citation">(<a href="references-and-session-info.html#ref-Xie16" role="doc-biblioref">Xie 2016</a>)</span> template, the References are collected in the chapter <a href="./references.html">6 References</a>.
+In this {bookdown} <span class="citation">(<a href="#ref-Xie16" role="doc-biblioref">Xie 2016</a>)</span> template, the References are collected in the chapter <a href="./references.html">6 References</a>.
 You can download citations in Bibtex format (<code>.bib</code>) in basically all citation-export tools from every journal.</p>
 </div>
-<div id="more-help-with-rmarkdown-and-bookdown" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> More Help with Rmarkdown and Bookdown</h2>
+<div id="more-help-with-rmarkdown-and-bookdown" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> More Help with Rmarkdown and Bookdown<a href="markdown-tips-and-tricks.html#more-help-with-rmarkdown-and-bookdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If you want to dig deeper, have a look at the <a href="https://bookdown.org/yihui/bookdown/">official bookdown guide</a>, <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> or the <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">R Markdown Cookbook</a>.</p>
 <hr />
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Xie16" class="csl-entry">
+Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <span>R</span> Markdown</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.
 </div>
 </div>
             </section>
@@ -803,7 +834,6 @@ You can download citations in Bibtex format (<code>.bib</code>) in basically all
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -822,6 +852,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": "github"
 },
 "fontsettings": {
@@ -842,6 +873,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
