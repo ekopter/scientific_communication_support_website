@@ -1,4 +1,3 @@
 welcome
-contents
 alies-programs
 scientific-writing

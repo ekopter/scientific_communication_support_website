@@ -29,32 +29,32 @@ create_html_header("show") # either "show" or "fold"
 
 
 
-# Welcome!
+# Welcome
 
 I'm Alie, the EAS department's Scientific Writer. My job is to support other department members in the communication of their science to scientific audiences. This includes support with everything from writing papers and grant proposals, to putting together conference presentations, to designing (and coding) data visualizations.
 
 If you have any questions or comments, or are interested in receiving my help for something you're working on, please feel free to contact me.
 
-`r icons::fontawesome$brands$slack`Alie  <br>
+`r icons::fontawesome$brands$slack` Alie  <br>
 
-`r icons::fontawesome$solid$envelope`aashbury@ab.mpg.de  <br>
+`r icons::fontawesome$solid$envelope` aashbury@ab.mpg.de  <br>
 
-`r icons::fontawesome("map-marker-alt", style = "solid")`Bückle 5.27  <br>
+`r icons::fontawesome("map-marker-alt", style = "solid")` Bückle 5.27  <br>
 
 This website is meant to be a source of support for those looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. 
 
 Please note, this website is still very much under construction!
 
 
-## Contents
+## Contents {-}
 
 The information on this website is divided into several categories:
 
 
-- [Alie's Programs](./2_programs.html): Details about the specific programs and services that Alie offers to department members
-- [Scientific Writing]: Coming soon!
-- [Scientific Presentations]: Coming soon!
-- [Data Visualization]: Coming soon!
+- [Alie's Programs](./2_programs.html): Details about the specific programs and services that I offer to department members.
+- [Scientific Writing](./3_Scit_Writing1): Lists and links of helpful resources related to scientific writing.
+- Scientific Presentations: Coming soon!
+- Data Visualization: Coming soon!
 
 
 ---
