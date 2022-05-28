@@ -48,7 +48,7 @@ In this lecture, entitled [Scientific Writing: Beyond Tips and Tricks, Judy Swan
 
 ### Courses {-}
 
-[Writing in the Sciences](https://www.coursera.org/learn/sciwrite), offered by Stanford University on Coursera, is a free class that covered big-picture and detailed nitty-gritty best practices of scientific writing. The focus is on original research manuscripts, but review papers and grant proposals and other types of written work are also covered. The course also reviews the writing process, with tips for how to approach writing projects. Although the examples are mostly taken from medical/clinical research, the lessons are taught clearly and can easily be applied to ecology/animal behavior research.
+[Writing in the Sciences](https://www.coursera.org/learn/sciwrite), offered by Stanford University on Coursera, is a free class that covers big-picture and detailed nitty-gritty best practices of scientific writing. The focus is on original research manuscripts, but review papers and grant proposals and other types of written work are also covered. The course also reviews the writing process, with tips for how to approach writing projects. Although the examples are mostly taken from medical/clinical research, the lessons are taught clearly and can easily be applied to ecology/animal behavior research.
 
 
 ### Suggestions? {-}
