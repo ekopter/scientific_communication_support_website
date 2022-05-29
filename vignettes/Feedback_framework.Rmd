@@ -13,7 +13,9 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Feedback Framework {-}
 
-The following information is meant to assist you when asking for and giving feedback on scientific writing projects. The idea here is to give **authors** a general framework and language for discussing the stage that their text is at and the type of feedback that they'd like, and to give **editors** some guidelines for what to think about and what to pay attention to when going through the text.
+The following information is meant to assist you when asking for and giving feedback on scientific writing projects. The idea here is to give **authors** a general framework and language for discussing the stage that their text is at and the type of feedback that they'd like, and to give **editors** some guidelines for what to think about and what to pay attention to when going through the text.  
+  
+It is important to remember that 1) writing is not a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or a re-structuring might be necessary along with the 'final' polishing edits; and 2) these categories are not discrete - e.g. when planning, you will of course consider content and structure, or adjustments to language may precipitate adjustments to structure, and vice-versa. The important thing here is that you - as an author - can conceptualize and articulate the type(s) of feedback that you want/need at any given time, and that you - as an editor - can conceptualize and understand the type(s) of feedback that an author is asking for.
 
 ## Preliminary questions {-} 
 
@@ -29,9 +31,6 @@ When you ask for, or are asked to give, writing feedback, first discuss the foll
 
 
 ## The categories of writing feedback {-} 
-
-The goal here is just to give you a general idea of the progression that a writing project might go through, and the types of feedback that might be most helpful along the way. However, it's important to remember that 1) writing is not a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or an important re-structuring might take place during the polishing phase; and 2) these categories are not discrete - e.g. when planning, you will of course consider content and structure, or adjustments to language may precipitate adjustments to structure, and vice-versa. The important thing here is that you - as an author - can conceptualize and articulate the type(s) of feedback that you want/need at any given time, and that you - as an editor - can conceptualize and understand the type(s) of feedback that an author is asking for.
-
 
 ### Planning {-} 
 
