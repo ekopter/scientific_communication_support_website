@@ -15,7 +15,12 @@ knitr::opts_knit$set(root.dir = '../')
 
 The following information is meant to assist you when asking for and giving feedback on scientific writing projects. The idea here is to give **authors** a general framework and language for discussing the stage that their text is at and the type of feedback that they'd like, and to give **editors** some guidelines for what to think about and what to pay attention to when going through the text.  
   
-It is important to remember that 1) writing is not a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or a re-structuring might be necessary along with the 'final' polishing edits; and 2) these categories are not discrete - e.g. when planning, you will of course consider content and structure, or adjustments to language may precipitate adjustments to structure, and vice-versa. The important thing here is that you - as an author - can conceptualize and articulate the type(s) of feedback that you want/need at any given time, and that you - as an editor - can conceptualize and understand the type(s) of feedback that an author is asking for.
+It is important to remember that:
+
+1) Writing is not a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or a re-structuring might be necessary along with the 'final' polishing edits; and 
+2) These categories are not discrete - e.g. when planning, you will of course consider content and structure, or adjustments to language may precipitate adjustments to structure, and vice-versa. 
+
+The important thing here is that you - as an author - can articulate the type(s) of feedback that you want/need at any given time, and that you - as an editor - can understand the type(s) of feedback that an author is asking for.
 
 ## Preliminary questions {-} 
 
@@ -27,7 +32,7 @@ When you ask for, or are asked to give, writing feedback, first discuss the foll
 * What is the current status of the text and what type of feedback does the author want?
 (see  below)
 
-* What, in particular (a certain idea/concept or a particular section), is the author struggling with or would like help on?
+* What, in particular (a certain idea/concept or a particular section), is the author struggling with or wanting help on?
 
 
 ## The categories of writing feedback {-} 
@@ -87,7 +92,7 @@ Is information all in the right places (background, knowledge gap, approach in I
 Are topics/foci presented in the same order through all sections of the text?  
 
 **The editor should:**  
-- track-changes as they go through the text  
+- track-changes to mark suggested edits in the text
 - add comments where more extensive edits are needed  
 - identify information that is out of place  
 - check for parallel structure(s)  
@@ -107,7 +112,7 @@ Does each sentence flow nicely from the next? Are details introduced properly an
 Check for: run-on sentences, noun-verb accordance, proper punctuation, etc  
 
 **The editor should:**  
-- track-changes as they go through the text  
+- track-changes to mark suggested edits in the text  
 - add comments where more extensive edits are needed  
 - identify passages that may need to be rewritten or reworked for more clarification  
 - note ideas or suggestions of how to change problem passages (in comments or track-changes)  
@@ -124,7 +129,7 @@ Check for: run-on sentences, noun-verb accordance, proper punctuation, etc
 ...jargon is defined, abbreviations are written out in full the first time, terminology is consistent throughout the text, punctuation is used correctly, etc  
 
 **The editor should:**  
-- track-changes as they go through the text  
+- track-changes to mark suggested edits in the text    
 - put in as few changes as possible to ensure clarity and readability of the text  
 - mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible  
 - try to preserve the author’s writing as much as possible, while still ensuring clarity and flow  

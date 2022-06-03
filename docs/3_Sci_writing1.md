@@ -16,25 +16,27 @@ editor_options:
 
 "You succeed as a scientist by getting [your papers] cited." - Joshua Schimel, *Writing Science*
 
-The above quotes highlight several key qualities of effective scientific writing/writers. In other words, to be an effective scientific writer,
+The above quotes highlight several key qualities of effective scientific writing & writers. To be an effective scientific writer....
 
-1. You must understand the importance of writing well. Invest in yourself as a writer. Take the time to learn and improve.
+1. You need to understand the importance of writing well. Invest in yourself as a writer. Take the time to learn and improve.
 2. You should write *for your audience* - every word, sentence, and paragraph that you write should be chosen and crafted to convey a specific message to your audience.
 3. You should write concisely. You need to cut clutter that will distract your audience from your main message.
-4. Your overarching goal is to get cited: It is not enough to get published - people actually need to *use* your work. Only when other scientists are citing your work - whether to discuss, evaluate, or build on it - has your research truly become part of the scientific body of knowledge.
+4. Your overarching goal is to get cited; It is not enough to get published - people actually need to *use* your work. Only when others are citing your work - because they are discussing it, building off it, or using it to inform their own work - has your research truly become part of the scientific body of knowledge.
 
 ## Resources {-}
 
 ### Books {-}
 
-When I find books about scientific writing that I think are really good and helpful, I will list them here and also ask that they be ordered for our department. So you should be able to find the following books on our 5th floor mini library (if not yet, then soon!).
+When I find books about scientific writing that I think are really good and helpful, I will list them here and also ask that they be ordered for our department. So you should be able to find the following books on our 5th floor mini library:
 
 *Writing Science* by Joshua Schimel  
 *Scientific Writing and Communication* by Angelika H. Hoffman
 
 ### Papers {-}
 
-[Simple rules for concise scientific writing; Hotaling 2020](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10165) is a great paper that outlines 10 rules for approaching and writing scientific papers.
+[Simple rules for concise scientific writing; Hotaling 2020](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lol2.10165) is a great paper that outlines 10 rules for approaching and writing scientific papers, with a focus on keeping things "tight" and concise.
+
+[Ten simple rules for structuring papers, Mensh & Kording 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619#sec003) is an excellent paper that outlines 10 rules for approaching and structuring a paper, so as to make it as easy as possible for your audience to understand your message.
 
 [Finding the "Pitch" in Ecological Writing, Cahill et al. 2011](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9623-92.2.196) is about how to approach writing a scientific paper, such that it is catchy and sticks with your readers.
 
