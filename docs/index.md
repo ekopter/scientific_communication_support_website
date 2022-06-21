@@ -2,7 +2,7 @@
 title: "Scientific Communication Support"
 subtitle: "Ecology of Animal Societies"
 author: "Alie Ashbury"
-date: "last updated: 2022-06-03"
+date: "last updated: 2022-06-21"
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
@@ -43,9 +43,10 @@ The information on this website is divided into several categories:
 
 
 - [Alie's Programs](./2_programs.html): Details about the specific programs and services that I offer to department members.
-- [Scientific Writing](./3_Scit_Writing1): Lists and links of helpful resources related to scientific writing.
+- [Scientific Writing](./3_Scit_Writing1.html): Lists and links of helpful resources related to scientific writing.
 - Scientific Presentations: Coming soon!
 - Data Visualization: Coming soon!
+- Random posts: [Feedback framework](./Feedback_framework.html), [All About Abstracts](./Abstracts.html), more coming soon!
 
 
 ---
