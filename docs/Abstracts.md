@@ -28,7 +28,7 @@ For abstracts that must be less than ~150 words, you may need to get creative to
 
 ## Abstract recipe {-}
 
-The following recipe is meant to provide a very basic overview of the standard structure for a 200-300 word abstract...
+The following recipe is meant to provide a very basic overview of the standard structure for a 200-300 word abstract. However, it is meant to be a *guide*, not a rigid rule list!
 
   1. Background, what is known (~1 sentence)
   2. Gap, unknown, problem (~1 sentence)
@@ -38,7 +38,7 @@ The following recipe is meant to provide a very basic overview of the standard s
   6. Conclusion, answer the question, fill the gap (~1 sentence)
   7. Broader implications, meaning, recommendation (~1 sentence)
 
-While the general order of **Context** (#1, #2), **Content** (#3, #4, #5), and **Conclusion** (#6, #7) shouldn't be changed, within these categories there can be some wiggle room. It is not uncommon for the order of #3 and #4 to be switched (approach and then research aim), nor for the order of #5 and #6 to be switched (overarching conclusion and then specific results). Furthermore, especially where there is a very small word limit, it may be possible to omit #2 (the knowledge gap), as it is implied by #1 (background) and/or #3 (research aims), and/or to collapse #3 (research aims) and #4 (approach) into a single statement, and/or to omit (or describe only very very briefly) #5 (key results).
+While the general order of **Context** (#1, #2), **Content** (#3, #4, #5), and **Conclusion** (#6, #7) shouldn't be changed, within these categories there is wiggle room. It is not uncommon for the order of #3 and #4 to be switched (approach and then research aim), nor for the order of #5 and #6 to be switched (overarching conclusion and then specific results). Furthermore, especially where there is a very small word limit, it may be possible to omit #2 (the knowledge gap), as it is implied by #1 (background) and/or #3 (research aims), and/or to collapse #3 (research aims) and #4 (approach) into a single statement.
 
 It is always important to check and see if the journal has any specific requirements for abstracts. For example, [Nature asks for a "summary paragraph"](https://www.nature.com/documents/nature-summary-paragraph.pdf) rather an an "abstract" *per se*. 
 
@@ -49,16 +49,17 @@ If you are at all unsure of how to construct an abstract, and if the journal doe
 
 Although everybody's process is different, it can be a very valuable exercise to write a paper's abstract first, before writing any of the rest of the paper. If you can fill in all of the ingredients for the recipe above, then you are ready to write your paper. You can then use your abstract as a road map to guide your paper-writing. As you write your paper, and your thinking develops, continue to check back to the abstract and edit/adjust your abstract, or your paper, as necessary. Damien Farine has [a great blog post over on academic life histories about how to use your abstract to improve your paper-writing](http://academiclifehistories.weebly.com/blog/how-to-become-a-better-writer-iii-start-with-the-abstract-first).
 
-If you are struggling to satisfy any of the parts of the recipe, then you may need to do more background research, thinking, discussing with co-authors, or analysis before you are ready to write your paper. 
+If you are struggling to satisfy any of the parts of the recipe, then you may need to do more background research, discussing with co-authors, or analysis before you are ready to write your paper. 
 
 Whatever your process, I encourage you to not leave the abstract until the end, just prior to submission. Remember that it is one of the absolute most important parts of the entire paper, and it should receive the same - if not more - scrutiny (by yourself, co-authors, and others who help to edit your work) as the rest of the paper!
 
 ## Annotated abstracts {-}
 
-Here are a few examples of abstracts, which I've annotated in accordance with the above abstract recipe....
+Here are a few examples of abstracts, which I've annotated in accordance with the above abstract recipe... 
 
-![Morrison et al. 2020](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract _examples_jpg/Abstract _examples_jpg.001.jpeg)
-![Havmøller et al. 2021](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract _examples_jpg/Abstract _examples_jpg.002.jpeg)
-![Strandburg-Peshkin et al. 2015](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract _examples_jpg/Abstract _examples_jpg.003.jpeg)
-
-![Loftus et al. 2022](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract _examples_jpg/Abstract _examples_jpg.004.jpeg)
+![Morrison et al. 2020](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.001.jpeg)\
+![Havmøller et al. 2021](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.002.jpeg)\
+![Strandburg-Peshkin et al. 2015](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.003.jpeg)\
+![Loftus et al. 2022](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.004.jpeg)\
+  
+  
