@@ -55,7 +55,7 @@ The information on this website is divided into several categories:
 - [Scientific Writing](./3_Scit_Writing1.html): Lists and links of helpful resources related to scientific writing.
 - Scientific Presentations: Coming soon!
 - Data Visualization: Coming soon!
-- Random posts: [Feedback framework](./Feedback_framework.html), [All About Abstracts](./Abstracts.html), more coming soon!
+- Random posts: [Feedback framework](.docs/feedback-framework.html), [All About Abstracts](./Abstracts.html), more coming soon!
 
 
 ---
