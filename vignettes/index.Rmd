@@ -51,10 +51,10 @@ Please note, this website is still very much under construction!
 The information on this website is divided into several categories:
 
 
-- [Alie's Programs](./2_programs.html): Details about the specific programs and services that I offer to department members.
-- [Scientific Writing](./3_Scit_Writing1.html): Lists and links of helpful resources related to scientific writing.
-- Scientific Presentations: Coming soon!
-- Data Visualization: Coming soon!
+- [Alie's Programs]: Details about the specific programs and services that I offer to department members.
+- [Scientific Writing]: Lists and links of helpful resources related to scientific writing.
+- [Scientific Presentations]: Coming soon!
+- [Data Visualization]: Coming soon!
 - Random posts: [Feedback framework](.docs/feedback-framework.html), [All About Abstracts](./Abstracts.html), more coming soon!
 
 
