@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE,
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-# Scientific Writing
+# Scientific Writing {#sci_writ_main}
 
 "As a scientist, you are a professional writer." - Joshua Schimel, *Writing Science*
 

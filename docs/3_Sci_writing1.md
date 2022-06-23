@@ -6,7 +6,7 @@ editor_options:
 
 
 
-# Scientific Writing
+# Scientific Writing {#sci_writ_main}
 
 "As a scientist, you are a professional writer." - Joshua Schimel, *Writing Science*
 

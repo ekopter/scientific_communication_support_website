@@ -11,6 +11,6 @@ knitr::opts_chunk$set(echo = TRUE,
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-# Data Visualization {#id}
+# Scientific Presentations {#id}
 
 *Coming soon!*
