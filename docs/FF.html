@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Feedback Framework | Scientific Communication Support</title>
+  <meta name="description" content="A website for info and resources related to scientific communication" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Feedback Framework | Scientific Communication Support" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="A website for info and resources related to scientific communication" />
+  <meta name="github-repo" content="ekopter/scientific_communication_support_website" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Feedback Framework | Scientific Communication Support" />
+  
+  <meta name="twitter:description" content="A website for info and resources related to scientific communication" />
+  
+
+<meta name="author" content="Alie Ashbury" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="blog_main.html"/>
+<link rel="next" href="Abstracts.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+<script>
+/* ========================================================================
+ * Bootstrap: transition.js v3.3.7
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // ============================================================
+
+  function transitionEnd() {
+    var el = document.createElement('bootstrap')
+
+    var transEndEventNames = {
+      WebkitTransition : 'webkitTransitionEnd',
+      MozTransition    : 'transitionend',
+      OTransition      : 'oTransitionEnd otransitionend',
+      transition       : 'transitionend'
+    }
+
+    for (var name in transEndEventNames) {
+      if (el.style[name] !== undefined) {
+        return { end: transEndEventNames[name] }
+      }
+    }
+
+    return false // explicit for ie8 (  ._.)
+  }
+
+  // http://blog.alexmaccaw.com/css-transitions
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+
+  $(function () {
+    $.support.transition = transitionEnd()
+
+    if (!$.support.transition) return
+
+    $.event.special.bsTransitionEnd = {
+      bindType: $.support.transition.end,
+      delegateType: $.support.transition.end,
+      handle: function (e) {
+        if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+      }
+    }
+  })
+
+}(jQuery);
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: collapse.js v3.3.7
+ * http://getbootstrap.com/javascript/#collapse
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/* jshint latedef: false */
+
++function ($) {
+  'use strict';
+
+  // COLLAPSE PUBLIC CLASS DEFINITION
+  // ================================
+
+  var Collapse = function (element, options) {
+    this.$element      = $(element)
+    this.options       = $.extend({}, Collapse.DEFAULTS, options)
+    this.$trigger      = $('[data-toggle="collapse"][href="#' + element.id + '"],' +
+                           '[data-toggle="collapse"][data-target="#' + element.id + '"]')
+    this.transitioning = null
+
+    if (this.options.parent) {
+      this.$parent = this.getParent()
+    } else {
+      this.addAriaAndCollapsedClass(this.$element, this.$trigger)
+    }
+
+    if (this.options.toggle) this.toggle()
+  }
+
+  Collapse.VERSION  = '3.3.7'
+
+  Collapse.TRANSITION_DURATION = 350
+
+  Collapse.DEFAULTS = {
+    toggle: true
+  }
+
+  Collapse.prototype.dimension = function () {
+    var hasWidth = this.$element.hasClass('width')
+    return hasWidth ? 'width' : 'height'
+  }
+
+  Collapse.prototype.show = function () {
+    if (this.transitioning || this.$element.hasClass('in')) return
+
+    var activesData
+    var actives = this.$parent && this.$parent.children('.panel').children('.in, .collapsing')
+
+    if (actives && actives.length) {
+      activesData = actives.data('bs.collapse')
+      if (activesData && activesData.transitioning) return
+    }
+
+    var startEvent = $.Event('show.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    if (actives && actives.length) {
+      Plugin.call(actives, 'hide')
+      activesData || actives.data('bs.collapse', null)
+    }
+
+    var dimension = this.dimension()
+
+    this.$element
+      .removeClass('collapse')
+      .addClass('collapsing')[dimension](0)
+      .attr('aria-expanded', true)
+
+    this.$trigger
+      .removeClass('collapsed')
+      .attr('aria-expanded', true)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse in')[dimension]('')
+      this.transitioning = 0
+      this.$element
+        .trigger('shown.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    var scrollSize = $.camelCase(['scroll', dimension].join('-'))
+
+    this.$element
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)[dimension](this.$element[0][scrollSize])
+  }
+
+  Collapse.prototype.hide = function () {
+    if (this.transitioning || !this.$element.hasClass('in')) return
+
+    var startEvent = $.Event('hide.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    var dimension = this.dimension()
+
+    this.$element[dimension](this.$element[dimension]())[0].offsetHeight
+
+    this.$element
+      .addClass('collapsing')
+      .removeClass('collapse in')
+      .attr('aria-expanded', false)
+
+    this.$trigger
+      .addClass('collapsed')
+      .attr('aria-expanded', false)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.transitioning = 0
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse')
+        .trigger('hidden.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    this.$element
+      [dimension](0)
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
+  }
+
+  Collapse.prototype.toggle = function () {
+    this[this.$element.hasClass('in') ? 'hide' : 'show']()
+  }
+
+  Collapse.prototype.getParent = function () {
+    return $(this.options.parent)
+      .find('[data-toggle="collapse"][data-parent="' + this.options.parent + '"]')
+      .each($.proxy(function (i, element) {
+        var $element = $(element)
+        this.addAriaAndCollapsedClass(getTargetFromTrigger($element), $element)
+      }, this))
+      .end()
+  }
+
+  Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
+    var isOpen = $element.hasClass('in')
+
+    $element.attr('aria-expanded', isOpen)
+    $trigger
+      .toggleClass('collapsed', !isOpen)
+      .attr('aria-expanded', isOpen)
+  }
+
+  function getTargetFromTrigger($trigger) {
+    var href
+    var target = $trigger.attr('data-target')
+      || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+
+    return $(target)
+  }
+
+
+  // COLLAPSE PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.collapse')
+      var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
+
+      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.collapse
+
+  $.fn.collapse             = Plugin
+  $.fn.collapse.Constructor = Collapse
+
+
+  // COLLAPSE NO CONFLICT
+  // ====================
+
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+  // COLLAPSE DATA-API
+  // =================
+
+  $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
+    var $this   = $(this)
+
+    if (!$this.attr('data-target')) e.preventDefault()
+
+    var $target = getTargetFromTrigger($this)
+    var data    = $target.data('bs.collapse')
+    var option  = data ? 'toggle' : $this.data()
+
+    Plugin.call($target, option)
+  })
+
+}(jQuery);
+</script>
+<script>
+window.initializeCodeFolding = function(show) {
+
+  // handlers for show-all and hide all
+  $("#rmd-show-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('show');
+    });
+  });
+  $("#rmd-hide-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('hide');
+    });
+  });
+  
+  // index for unique code element ids
+  var currentIndex = 1;
+
+  // select all R code blocks
+  var rCodeBlocks = $('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan');
+  rCodeBlocks.each(function() {
+
+    // create a collapsable div to wrap the code in
+    var div = $('<div class="collapse r-code-collapse"></div>');
+    if (show)
+      div.addClass('in');
+    var id = 'rcode-643E0F36' + currentIndex++;
+    div.attr('id', id);
+    $(this).before(div);
+    $(this).detach().appendTo(div);
+
+    // add a show code button right above
+    // var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
+    var showCodeText = $('<img style="width:45px;" src="img/both.svg">');
+    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
+    showCodeButton.append(showCodeText);
+    showCodeButton
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    var buttonRow = $('<div class="row"></div>');
+    var buttonCol = $('<div class="col-md-12"></div>');
+
+    var buttonColK = $('<div class="check"><input type="checkbox" id="cc_' + id + '" class="btn btn-default btn-xs code-folding-btn pull-right ch1" /><label class="checktrue" for="cc_' + id + '" ></label></div>');
+
+    buttonColK
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    //buttonCol.append(showCodeButton);
+    buttonRow.append(buttonCol);
+    buttonCol.append(buttonColK);
+
+    div.before(buttonRow);
+
+    // update state of button on show/hide
+    div.on('hidden.bs.collapse', function () {
+      showCodeText.text();
+    });
+    div.on('show.bs.collapse', function () {
+      showCodeText.text();
+    });
+  });
+
+}
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: dropdown.js v3.3.7
+ * http://getbootstrap.com/javascript/#dropdowns
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // DROPDOWN CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.dropdown-backdrop'
+  var toggle   = '[data-toggle="dropdown"]'
+  var Dropdown = function (element) {
+    $(element).on('click.bs.dropdown', this.toggle)
+  }
+
+  Dropdown.VERSION = '3.3.7'
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      if (e && e.type == 'click' && /input|textarea/i.test(e.target.tagName) && $.contains($parent[0], e.target)) return
+
+      $parent.trigger(e = $.Event('hide.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+    })
+  }
+
+  Dropdown.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $(document.createElement('div'))
+          .addClass('dropdown-backdrop')
+          .insertAfter($(this))
+          .on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger($.Event('shown.bs.dropdown', relatedTarget))
+    }
+
+    return false
+  }
+
+  Dropdown.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if (!isActive && e.which != 27 || isActive && e.which == 27) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('.dropdown-menu' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--         // up
+    if (e.which == 40 && index < $items.length - 1) index++         // down
+    if (!~index)                                    index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+
+  // DROPDOWN PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.dropdown')
+
+      if (!data) $this.data('bs.dropdown', (data = new Dropdown(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.dropdown
+
+  $.fn.dropdown             = Plugin
+  $.fn.dropdown.Constructor = Dropdown
+
+
+  // DROPDOWN NO CONFLICT
+  // ====================
+
+  $.fn.dropdown.noConflict = function () {
+    $.fn.dropdown = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.dropdown.data-api', clearMenus)
+    .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
+    .on('click.bs.dropdown.data-api', toggle, Dropdown.prototype.toggle)
+    .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
+    .on('keydown.bs.dropdown.data-api', '.dropdown-menu', Dropdown.prototype.keydown)
+
+}(jQuery);
+</script>
+<script>
+$(document).ready(function() {
+
+  // Section anchors
+  $('.section h1, .section h2, .section h3, .section h4, .section h5').each(function() {
+    anchor = '#' + $(this).parent().attr('id');
+    $(this).addClass("hasAnchor").append('<a href="' + anchor + '" class="anchor"></a>');
+  });
+});
+</script>
+<link rel="shortcut icon" href="img/favicon.ico" />
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+<script>document.write('<div class="btn-group pull-right" style="position: absolute; top: 35px; right: 2%; z-index: 10"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"aria-expanded="true" data-_extension-text-contrast=""><span>global code</span><span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All</a></li><li><a id="rmd-hide-all-code" href="#">Hide All</a></li></ul></div>')</script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://www.ab.mpg.de/crofoot">Ecology of Animal Societies</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#contents"><i class="fa fa-check"></i>Contents</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="alies_programs.html"><a href="alies_programs.html"><i class="fa fa-check"></i><b>2</b> Alie’s Programs</a>
+<ul>
+<li class="chapter" data-level="" data-path="alies_programs.html"><a href="alies_programs.html#writing-support"><i class="fa fa-check"></i>Writing Support</a></li>
+<li class="chapter" data-level="" data-path="alies_programs.html"><a href="alies_programs.html#writing-solidarity-club"><i class="fa fa-check"></i>Writing Solidarity Club</a></li>
+<li class="chapter" data-level="" data-path="alies_programs.html"><a href="alies_programs.html#writing-retreat"><i class="fa fa-check"></i>Writing Retreat</a></li>
+<li class="chapter" data-level="" data-path="alies_programs.html"><a href="alies_programs.html#writing-workshop"><i class="fa fa-check"></i>Writing Workshop</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="sci_writ_main.html"><a href="sci_writ_main.html"><i class="fa fa-check"></i><b>3</b> Scientific Writing</a>
+<ul>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#resources"><i class="fa fa-check"></i>Resources</a>
+<ul>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#books"><i class="fa fa-check"></i>Books</a></li>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#papers"><i class="fa fa-check"></i>Papers</a></li>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#online-resources"><i class="fa fa-check"></i>Online resources</a></li>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#courses"><i class="fa fa-check"></i>Courses</a></li>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#suggestions"><i class="fa fa-check"></i>Suggestions?</a></li>
+<li class="chapter" data-level="" data-path="sci_writ_main.html"><a href="sci_writ_main.html#other"><i class="fa fa-check"></i>Other</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="scientific-presentations-sci_presentations_main.html"><a href="scientific-presentations-sci_presentations_main.html"><i class="fa fa-check"></i><b>4</b> Scientific Presentations {sci_presentations_main}</a></li>
+<li class="chapter" data-level="5" data-path="data_viz_main.html"><a href="data_viz_main.html"><i class="fa fa-check"></i><b>5</b> Data Visualization</a></li>
+<li class="chapter" data-level="6" data-path="blog_main.html"><a href="blog_main.html"><i class="fa fa-check"></i><b>6</b> Blog</a>
+<ul>
+<li class="chapter" data-level="" data-path="blog_main.html"><a href="blog_main.html#all-about-abstracts"><i class="fa fa-check"></i>All About Abstracts</a></li>
+<li class="chapter" data-level="" data-path="blog_main.html"><a href="blog_main.html#feedback-framework"><i class="fa fa-check"></i>Feedback framework</a></li>
+</ul></li>
+<li class="divider"></li>
+<img style="position:absolute; bottom:0px; left:0px; width:100%; pointer-events:none;" src="./img/eas_cropped.png">
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Scientific Communication Support</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="FF" class="section level1 unlisted unnumbered hasAnchor">
+<h1>Feedback Framework<a href="FF.html#FF" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The following information is meant to assist you when asking for and giving feedback on scientific writing projects. The idea here is to give <strong>authors</strong> a general framework and language for discussing the stage that their text is at and the type of feedback that they’d like, and to give <strong>editors</strong> some guidelines for what to think about and what to pay attention to when going through the text.</p>
+<p>It is important to remember that:</p>
+<ol style="list-style-type: decimal">
+<li>Writing is not a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or a re-structuring might be necessary along with the ‘final’ polishing edits; and</li>
+<li>These categories are not discrete - e.g. when planning, you will of course consider content and structure, or adjustments to language may precipitate adjustments to structure, and vice-versa.</li>
+</ol>
+<p>The important thing here is that you - as an author - can articulate the type(s) of feedback that you want/need at any given time, and that you - as an editor - can understand the type(s) of feedback that an author is asking for.</p>
+<div id="preliminary-questions" class="section level2 unnumbered hasAnchor">
+<h2>Preliminary questions<a href="FF.html#preliminary-questions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>When you ask for, or are asked to give, writing feedback, first discuss the following questions with the author/editor:</p>
+<ul>
+<li><p>What are the requirements for this text? / What is the planned destination for this text? / Who is the audience for this text?
+(ex. If a grant proposal, what does the granting agency want to see in the proposal?; If a journal article, what journal(s) is the author considering submitting to?; etc)</p></li>
+<li><p>What is the current status of the text and what type of feedback does the author want?
+(see below)</p></li>
+<li><p>What, in particular (a certain idea/concept or a particular section), is the author struggling with or wanting help on?</p></li>
+</ul>
+</div>
+<div id="the-categories-of-writing-feedback" class="section level2 unnumbered hasAnchor">
+<h2>The categories of writing feedback<a href="FF.html#the-categories-of-writing-feedback" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="FF_graphic.png" style="width:50.0%" alt="FF_graphic" /><br />
+</p>
+<div id="planning" class="section level3 unnumbered hasAnchor">
+<h3>Planning<a href="FF.html#planning" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>The author:</strong><br />
+- is still chewing over ideas<br />
+- has done a lot of reading &amp; research<br />
+- has some notes<br />
+- has a rough outline/overview</p>
+<p><strong>While working through the text, the editor should ask themselves:</strong><br />
+What is/are the main point/s the author wants to make?<br />
+What is the overarching story of this text?<br />
+What does the audience need to know in order for the author’s main point/s to have an impact?</p>
+<p><strong>The editor should:</strong><br />
+- familiarize themselves (if they are not already) with the general topic / study system / field of research<br />
+- <strong>discuss</strong> the project with the author<br />
+- clarify questions/aims/goals of the text<br />
+- identify areas where further reading &amp; research is needed<br />
+- help to develop an approach, structure, and maybe an outline</p>
+</div>
+<div id="content" class="section level3 unnumbered hasAnchor">
+<h3>Content<a href="FF.html#content" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>The author:</strong><br />
+- has a first draft (though it’s not pretty, and many ideas may be still half-baked) or at least a thorough outline<br />
+- has thought about out the general content<br />
+- has a preliminary idea of the over-arching structure of the text</p>
+<p><strong>While working through the text, the editor should ask themselves:</strong><br />
+Is the central idea of the text framed in an interesting and engaging way?<br />
+Is the author’s main point clearly explained, and enough background/ contextual information given for it to make sense?<br />
+Does the framing/contextualization of the topic make clear why this topic/problem is important?<br />
+Is anything missing? Does anything seem superfluous/unnecessary?<br />
+Does every method have a result and vice versa?<br />
+Do the data and analysis support the conclusions?</p>
+<p><strong>The editor should:</strong><br />
+- use <strong>comments</strong> to put feedback into the text<br />
+- identify areas that aren’t clear, ideas that don’t fit, and concepts that are missing<br />
+- only note language-related edits when necessary to clarify the meaning of a sentence<br />
+- focus on the <em>content</em> of the text and not on <em>how</em> it is written</p>
+</div>
+<div id="structure" class="section level3 unnumbered hasAnchor">
+<h3>Structure<a href="FF.html#structure" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>The author:</strong><br />
+- has a full draft of the text<br />
+- has basically finalized the draft content, and fully fleshed out the ideas</p>
+<p><strong>While working through the text, the editor should ask themselves:</strong><br />
+Does each sentence, paragraph, and section have a clear point/message?<br />
+Can you quickly and easily summarize the topic/focus of each paragraph?<br />
+Generally, does each paragraph begin with a topic sentence, end with an emphasis or concluding sentence, and have supporting information in the middle?<br />
+Is information all in the right places (background, knowledge gap, approach in Intro; no Methods mixed in with the Results; no Discussion/interpretation mixed in with the Results; etc)?<br />
+Are topics/foci presented in the same order through all sections of the text?</p>
+<p><strong>The editor should:</strong><br />
+- <strong>track-changes</strong> to mark suggested edits in the text<br />
+- add <strong>comments</strong> where more extensive edits are needed<br />
+- identify information that is out of place<br />
+- check for parallel structure(s)<br />
+- check paragraph structures<br />
+- focus more on <em>where</em> information/ideas are presented, and on the <em>ordering</em> of these, and less on <em>how</em> it is written</p>
+</div>
+<div id="language" class="section level3 unnumbered hasAnchor">
+<h3>Language<a href="FF.html#language" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>The author:</strong><br />
+- has a full, well-structured draft of the text</p>
+<p><strong>While working through the text, the editor should ask themselves:</strong><br />
+As you read through, where do you get stuck or confused?
+How could problem areas be changed to improve readability?<br />
+Does each sentence flow nicely from the next? Are details introduced properly and relationally?<br />
+Check for: run-on sentences, noun-verb accordance, proper punctuation, etc</p>
+<p><strong>The editor should:</strong><br />
+- <strong>track-changes</strong> to mark suggested edits in the text<br />
+- add <strong>comments</strong> to explain changes and to highlight recurring errors<br />
+- identify passages that may need to be rewritten or reworked for more clarification<br />
+- note ideas or suggestions of how to change problem passages (in comments or track-changes)<br />
+- focus on <em>how</em> the text is written, be thorough</p>
+</div>
+<div id="polishing" class="section level3 unnumbered hasAnchor">
+<h3>Polishing<a href="FF.html#polishing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>The author:</strong><br />
+- has the text finished and in its “final” form<br />
+- has a submission deadline (if applicable) quickly approaching</p>
+<p><strong>While working through the text, the editor should check that:</strong><br />
+…jargon is defined, abbreviations are written out in full the first time, terminology is consistent throughout the text, punctuation is used correctly, etc</p>
+<p><strong>The editor should:</strong><br />
+- <strong>track-changes</strong> to mark suggested edits in the text<br />
+- put in as few changes as possible to ensure clarity and readability of the text<br />
+- mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible<br />
+- try to preserve the author’s writing as much as possible, while still ensuring clarity and flow</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="blog_main.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="Abstracts.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": "github"
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
