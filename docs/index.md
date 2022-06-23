@@ -42,11 +42,11 @@ Please note, this website is still very much under construction!
 The information on this website is divided into several categories:
 
 
-- [Alie's Programs](alies_programs): Details about the specific programs and services that I offer to department members.
-- [Scientific Writing](sci_writ_main): Lists and links of helpful resources related to scientific writing.
-- [Scientific Presentations](sci_presentations_main): Coming soon!
-- [Data Visualization](data_viz_main): Coming soon!
-- [Alie's Blog](blog_main): Posts about anything related to scientific communication. 
+- [2 Alie's Programs](alies_programs): Details about the specific programs and services that I offer to department members.
+- [3 Scientific Writing](sci_writ_main): Lists and links of helpful resources related to scientific writing.
+- [4 Scientific Presentations](sci_presentations_main): Coming soon!
+- [5 Data Visualization](data_viz_main): Coming soon!
+- [6 Alie's Blog](blog_main): Posts about anything related to scientific communication. 
 
 
 ---

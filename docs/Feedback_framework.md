@@ -6,7 +6,7 @@ editor_options:
 ---
 
 
-[Back to Blog main page](blog_main)
+
 
 # Feedback Framework {.unlisted .unnumbered #FF}
 
@@ -133,4 +133,4 @@ Check for: run-on sentences, noun-verb accordance, proper punctuation, etc
 - mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible  
 - try to preserve the author’s writing as much as possible, while still ensuring clarity and flow  
 
-[Back to Blog main page](blog_main)
+[Back to Blog main page](#blog_main)

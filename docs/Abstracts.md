@@ -5,7 +5,6 @@ editor_options:
 ---
 
 
-[Back to Blog main page](blog_main)
 
 # All About Abstracts {.unlisted .unnumbered #Abstracts}
 
@@ -63,4 +62,4 @@ Here are a few examples of abstracts, which I've annotated in accordance with th
 ![Strandburg-Peshkin et al. 2015](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.003.jpeg)\
 ![Loftus et al. 2022](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Abstract_examples_jpg/Abstract examples.004.jpeg)\
   
-[Back to Blog main page](blog_main)  
+[Back to Blog main page](#blog_main)  
