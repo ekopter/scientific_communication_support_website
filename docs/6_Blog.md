@@ -9,7 +9,7 @@ editor_options:
 # Blog {#blog_main}
 
 
-## All About Abstracts {-}
+## [All About Abstracts](#Abstracts) {-}
 
 This post is meant to assist you when you're writing an abstract for an original research manuscript (though, some of this information will also apply to review & other types of articles). 
 
