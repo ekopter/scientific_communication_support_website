@@ -44,7 +44,7 @@ The information on this website is divided into several categories:
 
 - [Alie's Programs](alies_programs): Details about the specific programs and services that I offer to department members.
 - [Scientific Writing](sci_writ_main): Lists and links of helpful resources related to scientific writing.
-- [Scientific Presentations](sci_presentations_main): Coming soon!
+- [Scientific Presentations](scientific-presentations): Coming soon!
 - [Data Visualization](data_viz_main): Coming soon!
 - [Alie's Blog](blog_main): Posts about anything related to scientific communication. 
 
