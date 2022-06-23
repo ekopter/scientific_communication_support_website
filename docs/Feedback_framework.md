@@ -2,6 +2,7 @@
 output: html_document
 editor_options:
   chunk_output_type: console
+
 ---
 
 
@@ -32,6 +33,8 @@ When you ask for, or are asked to give, writing feedback, first discuss the foll
 
 ## The categories of writing feedback {-} 
 
+![FF_graphic](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/FF_graphic.png){width=50%}\
+
 ### Planning {-} 
 
 **The author:**  
@@ -47,7 +50,7 @@ What does the audience need to know in order for the author’s main point/s to 
 
 **The editor should:**  
 - familiarize themselves (if they are not already) with the general topic / study system / field of research  
-- discuss the project with the author  
+- **discuss** the project with the author  
 - clarify questions/aims/goals of the text  
 - identify areas where further reading & research is needed  
 - help to develop an approach, structure, and maybe an outline  
@@ -68,7 +71,7 @@ Does every method have a result and vice versa?
 Do the data and analysis support the conclusions?  
   
 **The editor should:**  
-- use comments to put feedback into the text  
+- use **comments** to put feedback into the text  
 - identify areas that aren’t clear, ideas that don’t fit, and concepts that are missing  
 - only note language-related edits when necessary to clarify the meaning of a sentence  
 - focus on the *content* of the text and not on *how* it is written  
@@ -87,8 +90,8 @@ Is information all in the right places (background, knowledge gap, approach in I
 Are topics/foci presented in the same order through all sections of the text?  
 
 **The editor should:**  
-- track-changes to mark suggested edits in the text
-- add comments where more extensive edits are needed  
+- **track-changes** to mark suggested edits in the text  
+- add **comments** where more extensive edits are needed  
 - identify information that is out of place  
 - check for parallel structure(s)  
 - check paragraph structures  
@@ -107,8 +110,8 @@ Does each sentence flow nicely from the next? Are details introduced properly an
 Check for: run-on sentences, noun-verb accordance, proper punctuation, etc  
 
 **The editor should:**  
-- track-changes to mark suggested edits in the text  
-- add comments where more extensive edits are needed  
+- **track-changes** to mark suggested edits in the text  
+- add **comments** to explain changes and to highlight recurring errors  
 - identify passages that may need to be rewritten or reworked for more clarification  
 - note ideas or suggestions of how to change problem passages (in comments or track-changes)  
 - focus on *how* the text is written, be thorough  
@@ -124,7 +127,7 @@ Check for: run-on sentences, noun-verb accordance, proper punctuation, etc
 ...jargon is defined, abbreviations are written out in full the first time, terminology is consistent throughout the text, punctuation is used correctly, etc  
 
 **The editor should:**  
-- track-changes to mark suggested edits in the text    
+- **track-changes** to mark suggested edits in the text    
 - put in as few changes as possible to ensure clarity and readability of the text  
 - mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible  
 - try to preserve the author’s writing as much as possible, while still ensuring clarity and flow  
