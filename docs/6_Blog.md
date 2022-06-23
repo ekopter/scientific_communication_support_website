@@ -4,12 +4,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,
-                      comment = "#>",
-                      collapse = TRUE)
-knitr::opts_knit$set(root.dir = '../')
-```
+
 
 # Blog {#blog_main}
 

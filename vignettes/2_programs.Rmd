@@ -4,7 +4,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Alie's Programs {#id}
+# Alie's Programs {#alies_programs}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
