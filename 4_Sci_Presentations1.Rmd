@@ -11,6 +11,6 @@ knitr::opts_chunk$set(echo = TRUE,
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-# Scientific Presentations {#sci_presentations_main}  
+# Scientific Presentations {#scientific-presentations}  
 
 *Coming soon!*
