@@ -1,0 +1,29 @@
+---
+title: "Graveyard"
+author: "AMAshbury"
+date: "7/7/2022"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+## Titles from some of my past papers {-}
+
+Because I've been thinking a lot about paper tiles recently, I have found myself considering my past papers and if/how I would change their titles, knowing what I know now...
+
+**Reproductive parameters of female orangutans (Pongo pygmaeus wurmbii) 1971-2011, a 40-year study at Tanjung Puting National Park, Central Kalimantan, Indonesia**, [Galdikas & Ashbury 2013](https://link.springer.com/article/10.1007/s10329-012-0331-5)  
+
+This paper documents the reproductive parameters (age at first reproduction, interbirth interval, sex ratio at birth, and infant mortality) of the rehabilitated (aka wild-born ex-captive) orangutans and their daughters (wild-born, never captive) at Dr. Galdikas's research site, Camp Leakey. We chose a very general title that emphasized the duration of the study, i.e. the depth of the data. While it would have been nice to have a stickier title about our main findings, we essentially had 4 major findings (one for each reproductive parameter), that couldn't be easily summarized in a single phrase. However, an important part of the paper was the comparison of first-generation rehabilitated (i.e. wild-born ex-captive) mothers, with their daughters, second-generation (wild-born and never captive) mothers - and also the camparison of both of these groups to previously published data on the wild population of orangutans. An argument could be made, therefore, that a decent alternative title would have included some of this information, rather than the study duration & site information. For example: *Reproductive parameters of first- and second-generation rehabilitant female orangutans [and then with or without the study site]*; or *Reproductive parameters of wild-born ex-captive female orangutans and their daughters [and then with or without the study site]*.
+  
+  ***
+    
+**Why Do Orangutans Leave the Trees? Terrestrial Behavior Among Wild Bornean Orangutans (Pongo pygmaeus wurmbii) at Tuanan, Central Kalimantan**, [Ashbury et al. 2015](https://onlinelibrary.wiley.com/doi/abs/10.1002/ajp.22460)  
+
+
+
