@@ -8,7 +8,12 @@ editor_options:
 
 # Blog {#blog_main}
 
+## [Styles in MS Word](#WordStyles) {-}
 
+If you don't already use *Styles* in Microsoft Word, I highly recommend it! Despite what the term suggests, the benefits of using *Styles* go far beyond just aesthetics. Using *Styles* allows you to easily see an overview of the organization of a text that you're writing, which can help you to work out structure and flow. In this post, I go over the ***Why*** and ***How*** of using *Styles* in MS Word.
+  
+    
+    
 ## [A good title is a simple sticky statement](#Titles) {-}
 
 Without a doubt, the part of your paper that will get read the most often, and by the widest audience, is your title. Ideally, your title will be successful at signalling to your primary intended audience that this paper is for them, as well as signalling to everybody what the main message of your paper is. In this post, I go over what makes for a good title.
