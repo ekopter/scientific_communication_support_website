@@ -50,7 +50,7 @@ This fall, we will have our first EAS Writing Retreat at the [Hotel St Elisabeth
 
 Applications are now closed and the final list of participants has been notified!
  
-Stay tuned for info about or next EAS Writing Retreat, which will take place in Spring 2023!
+***Stay tuned for info about or next EAS Writing Retreat, which will take place in Spring 2023!***
   
   
   
