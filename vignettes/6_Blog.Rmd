@@ -13,6 +13,11 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Blog {#blog_main}
 
+## [Scientific Writing in the EAS Dept](#EASslides) {-}
+
+Here, you can see my slides from the Workshop/Discussion Series about *Scientific Writing in the EAS Department* that took place during lab meetings on June 1st & 22nd, and October 19th, 2022. 
+
+
 ## [Styles in MS Word](#WordStyles) {-}
 
 If you don't already use *Styles* in Microsoft Word, I highly recommend it! Despite what the term suggests, the benefits of using *Styles* go far beyond just aesthetics. Using *Styles* allows you to easily see an overview of the organization of a text that you're writing, which can help you to work out structure and flow. In this post, I go over the ***Why*** and ***How*** of using *Styles* in MS Word.

@@ -1,0 +1,20 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+# Paragraphs: The basic buidling blocks of text {.unlisted .unnumbered #Paragraphs}
+
+It's not secret how much I love paragraphs. A clear and well-constructed paragraph is ****chef's kiss****. 
+
+
+
+[Back to Blog main page](#blog_main)  
