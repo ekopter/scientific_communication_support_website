@@ -17,15 +17,16 @@ The following slides are from the Workshop/Discussion Series about *Scientific W
 
 ## Day 1 {-}
 
-![Day 1; 01 June](/Users/aashbury/Documents/EAS lab meetings/2022-06-01/Day 1.pdf){width=1000px height=600px}
+![Day 1; 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1.pdf){width=1000px height=600px}
+
 
 ## Day 2 {-}
 
-![Day 2; 22 June](/Users/aashbury/Documents/EAS lab meetings/2022-06-01/Day 2.pdf){width=1000px height=600px}
+![Day 2; 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 2.pdf){width=1000px height=600px}
 
 ## Day 1 and 2 Group Input
-![Day 1&2 Group input; 01 & 22 June](/Users/aashbury/Documents/EAS lab meetings/2022-06-01/Day 1 group input.pdf){width=1000px height=600px}
+![Day 1&2 Group input; 01 & 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1 group input.pdf){width=1000px height=600px}
 
 ## Day 3 {-}
 
-![Day 3; 19 Oct](/Users/aashbury/Documents/EAS lab meetings/2022-06-01/Day 3.pdf){width=1000px height=600px}
+![Day 3; 19 Oct](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 3.pdf){width=1000px height=600px}
