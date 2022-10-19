@@ -10,6 +10,8 @@ editor_options:
 
 # Scientific Writing in the EAS Department {.unlisted .unnumbered #EASslides}
 
+[*UNDER CONSTRUCTION... obviously...*]
+
 The following slides are from the Workshop/Discussion Series about *Scientific Writing in the EAS Department* that took place during lab meetings on June 1st & 22nd, and October 19th, 2022. 
 
 
