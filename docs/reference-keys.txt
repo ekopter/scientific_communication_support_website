@@ -4,4 +4,3 @@ sci_writ_main
 sci_presentations_main
 data_viz_main
 blog_main
-day-1-and-2-group-input

@@ -24,7 +24,8 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 ![Day 2; 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 2.pdf){width=100% height=500px}
 
-## Day 1 and 2 Group Input
+## Day 1 and 2 Group Input {-}
+
 ![Day 1&2 Group input; 01 & 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1 group input.pdf){width=100% height=500px}
 
 ## Day 3 {-}
