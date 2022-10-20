@@ -1,23 +1,13 @@
 # Ecology of Animal Societies - Bookdown Template
 
-This is a small template for a {[bookdown](https://bookdown.org/)} document that can be used to collect multiple Rmarkdown scripts for a coherent project documentation.
 
-To be able to use this in your own projects you will need to `R` as well as the {bookdown} package installed:
+This website is meant to be a source of support for EAS Department members looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. Click the link to the right, above, to view the website properly.
 
-```r
-install.packages("bookdown")
-```
 
-Note, that the template also uses the (non-cran) package {[emo](https://github.com/hadley/emo)} to be able to use emojis within Rmarkdown.
+I've used a {[bookdown](https://bookdown.org/)} template developed by [Kosmas](https://k-hench.github.io/eas_bookdown/) for this website.
 
-To be able to do this as well, install {emo} with the {[remotes](https://remotes.r-lib.org/)} package:
 
-```r
-install.packages("remotes")
-remotes::install_github("hadley/emo")
-```
-
-Please have a look at the [compiled documentation](https://k-hench.github.io/eas_bookdown/) for more information about this template.
+You can have a look at the [compiled documentation](https://k-hench.github.io/eas_bookdown/) for more information about this template.
 
 ---
 

@@ -21,13 +21,17 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 
 ## Day 1 {-}
+```{r fig.width=10, fig.height=8,}
+knitr::include_graphics("vignettes/Sci_Writ_EAS_series/Day 1.pdf")
+```
 
-![Day 1; 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1.pdf){width=100% height=500px}
+
+![Day 1; 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1.pdf){width=100% height=500px}\
 
 
 ## Day 2 {-}
 
-![Day 2; 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 2.pdf){width=100% height=500px}
+![Day 2; 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 2.pdf){width=100% height=500px}\
 
 ## Day 1 and 2 Group Input {-}
 
