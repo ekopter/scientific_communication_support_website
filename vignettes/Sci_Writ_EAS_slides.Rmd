@@ -22,8 +22,19 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 ## Day 1 {-}
 
+```{r fig.width=10, fig.height=8}
+knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/blob/ae124975a0ab683355bc78a1f1a8f915ecafcfad/pdfs/Sci_Writ_EAS_series/Day%201.pdf")
+```
+
+```{r fig.width=10, fig.height=8}
+knitr::include_url("https://raw.githubusercontent.com/ekopter/scientific_communication_support_website/5206927edfe7f611cf7fc701af760af0b2529d97/pdfs/Sci_Writ_EAS_series/Day%201.pdf")
+```
 
 ![Day 1; 01 June](https://raw.githubusercontent.com/ekopter/scientific_communication_support_website/5206927edfe7f611cf7fc701af760af0b2529d97/pdfs/Sci_Writ_EAS_series/Day%201.pdf){width=100% height=500px}\
+
+
+![Day 1; 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/ae124975a0ab683355bc78a1f1a8f915ecafcfad/pdfs/Sci_Writ_EAS_series/Day%201.pdf){width=100% height=500px}\
+
 
 "https://raw.githubusercontent.com/ekopter/scientific_communication_support_website/5206927edfe7f611cf7fc701af760af0b2529d97/pdfs/Sci_Writ_EAS_series/Day%201.pdf" 
 
