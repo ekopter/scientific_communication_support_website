@@ -23,7 +23,11 @@ The following slides are from the workshop/discussion series about *Scientific W
 ## Day 1 {-}
 
 ```{r fig.width=10, fig.height=8}
-knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+```
+
+```{r fig.width=10, fig.height=8}
+knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf?raw=true")
 ```
 
 ```{r fig.width=10, fig.height=8}
