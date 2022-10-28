@@ -1,4 +1,4 @@
-# Ecology of Animal Societies - Bookdown Template
+# Ecology of Animal Societies - Scientific Communication
 
 
 This website is meant to be a source of support for EAS Department members looking for assistance with their scientific communication - this is where I will compile information and resources that I regularly give/recommend to people. Click the link to the right, above, to view the website properly.
