@@ -25,7 +25,7 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 
 ```r
-htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html")
+htmltools::includeHTML("./vignettes/Sci_Writ_EAS_series/Day_3/index.html")
 ```
 
 ```{=html}
@@ -66,7 +66,7 @@ htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_suppo
 
 
 ```r
-shiny::includeHTML("/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html")
+shiny::includeHTML("./vignettes/Sci_Writ_EAS_series/Day_3/index.html")
 ```
 
 ```{=html}
@@ -105,9 +105,9 @@ shiny::includeHTML("/Users/aashbury/Documents/scientific_communication_support_w
 </html>
 ```
 
-![Day 1; 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html){width=100% height=500px}\
+![Day 1; 01 June]./vignettes/Sci_Writ_EAS_series/Day_3/index.html){width=100% height=500px}\
 
-<iframe src="/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html"></iframe>
+<iframe src="./vignettes/Sci_Writ_EAS_series/Day_3/index.html"></iframe>
 
 ## Day 2 {-}
 
