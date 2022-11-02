@@ -64,6 +64,8 @@ htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_suppo
 </html>
 ```
 
+![Day 1; 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html){width=100% height=500px}\
+
 ## Day 2 {-}
 
 ![Day 2; 22 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 2.pdf){width=100% height=500px}\
