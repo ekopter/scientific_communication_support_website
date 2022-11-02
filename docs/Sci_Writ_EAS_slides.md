@@ -20,12 +20,12 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 
 ```r
-#htmltools::includeHTML("vignettes/Sci_Writ_EAS_series/Day_3")
+#htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3")
 ```
 
 
 ```r
-htmltools::includeHTML("vignettes/Sci_Writ_EAS_series/Day_3/index.html")
+htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3/index.html")
 ```
 
 ```{=html}
