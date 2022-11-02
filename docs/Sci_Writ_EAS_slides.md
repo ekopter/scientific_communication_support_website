@@ -105,7 +105,7 @@ shiny::includeHTML("./vignettes/Sci_Writ_EAS_series/Day_3/index.html")
 </html>
 ```
 
-![Day 1; 01 June]./vignettes/Sci_Writ_EAS_series/Day_3/index.html){width=100% height=500px}\
+![Day 1; 01 June](./vignettes/Sci_Writ_EAS_series/Day_3/index.html){width=100% height=500px}\
 
 <iframe src="./vignettes/Sci_Writ_EAS_series/Day_3/index.html"></iframe>
 
