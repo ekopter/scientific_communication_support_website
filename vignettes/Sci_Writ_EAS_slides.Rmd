@@ -28,7 +28,7 @@ The following slides are from the workshop/discussion series about *Scientific W
 ```
 
 ```{r}
-htmltools::includeHTML("./vignettes/Sci_Writ_EAS_series/Day_3/index.html")
+htmltools::includeHTML("vignettes/Sci_Writ_EAS_series/Day_3/index.html")
 ```
 
 ```{r}
