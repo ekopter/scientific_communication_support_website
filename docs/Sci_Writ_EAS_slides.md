@@ -19,6 +19,9 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 ![Day 1; 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){width=100% height=500px}\
 
+![Day 1; 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){width=100% height=500px}\
+
+
 
 ```r
 #htmltools::includeHTML("/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day_3")
