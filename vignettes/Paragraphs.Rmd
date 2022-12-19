@@ -13,7 +13,9 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Paragraphs: The basic buidling blocks of text {.unlisted .unnumbered #Paragraphs}
 
-It's not secret how much I love paragraphs. A clear and well-constructed paragraph is ****chef's kiss****. 
+In scientific writing, structure is so important. Having information presented in the right order, in the right place, can get you far past half-way to having your audience really understand your writing.
+
+It's not secret how much I love paragraphs. A clear and well-constructed paragraph is * chef's kiss *. 
 
 
 

@@ -1,0 +1,46 @@
+
+```{r fig.width=10, fig.height=8}
+#knitr::include_graphics("https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+```
+
+```{r}
+knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+```
+
+```{r}
+knitr::include_url("https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1")
+```
+```{r fig.width=10, fig.height=8}
+#knitr::include_graphics("https://raw.githubusercontent.com/ekopter/scientific_communication_support_website/ef6976663560a8876acb466136f42bf8c6a546e5/pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+```
+
+```{r,out.width="100%", out.height="100%"}
+knitr::include_graphics("./pdfs/Sci_Writ_EAS_series/Day_1.pdf")
+```
+
+```{r,out.width="100%", out.height="100%"}
+knitr::include_graphics("vignettes/Sci_Writ_EAS_series/Day 1.pdf")
+```
+
+![Day 1; 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){width=100% height=500px}\
+
+<object data="./pdfs/Sci_Writ_EAS_series/Day_1.pdf" type="application/pdf" width="100%">
+</object>
+
+<embed src="./pdfs/Sci_Writ_EAS_series/Day_1.pdf" type="application/pdf">
+
+<iframe width="100%" height="800" src="./pdfs/Sci_Writ_EAS_series/Day_1.pdf">
+
+<iframe width="100%" height="800" src="https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf">
+
+<object data="data/test.pdf" type="application/pdf" width="300" height="200">
+  alt : <a href="data/test.pdf">test.pdf</a>
+</object>
+<!-- ![Day 1; 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/ae124975a0ab683355bc78a1f1a8f915ecafcfad/pdfs/Sci_Writ_EAS_series/Day%201.pdf){width=100% height=500px}\ -->
+
+
+<!-- "https://raw.githubusercontent.com/ekopter/scientific_communication_support_website/5206927edfe7f611cf7fc701af760af0b2529d97/pdfs/Sci_Writ_EAS_series/Day%201.pdf"  -->
+
+```{r fig.width=10, fig.height=8}
+xfun::embed_file("vignettes/Sci_Writ_EAS_series/Day 1.pdf")
+```
