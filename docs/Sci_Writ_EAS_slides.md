@@ -16,11 +16,9 @@ The following slides are from the workshop/discussion series about *Scientific W
 
 ## Day 1 {-}
 
-![Day 1, 01 June](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf)
+![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg){width=100% height=450px}
 
-![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1.pdf)
-
-![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg){width=100% height=500px}\
+[![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg)](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1)
 
 
 
