@@ -5,12 +5,7 @@ editor_options:
 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,
-                      comment = "#>",
-                      collapse = TRUE)
-knitr::opts_knit$set(root.dir = '../')
-```
+
 
 
 # Feedback Framework {.unlisted .unnumbered #FF}
@@ -39,7 +34,7 @@ When you ask for, or are asked to give, writing feedback, first discuss the foll
 
 ## The categories of writing feedback {-} 
 
-![FF_graphic](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/FF_graphic.png){width=50%}\
+![FF_graphic](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_1_FF_graphic.png){width=50%}\
 
 ### Planning {-} 
 
