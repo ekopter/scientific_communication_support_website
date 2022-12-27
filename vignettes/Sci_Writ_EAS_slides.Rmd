@@ -14,7 +14,7 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Scientific Writing in the EAS Department {.unlisted .unnumbered #EASslides}
 
-![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg){width=50%}/ 
+![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg){width=100%}\
 
 The following slides link to the keynote presentations from the workshop/discussion series about *Scientific Writing in the EAS Department* that took place during lab meetings on June 1st & 22nd, and October 19th, 2022. Click on the picture of each presentation to open the full presentation in a new tab.
 
@@ -23,7 +23,7 @@ The following slides link to the keynote presentations from the workshop/discuss
 
 On the first day, we began the series by discussion what "good scientific writing" actually means, and then we talked in more detail about the *mechanics* (content, structure and language) of effective writing.
 
-| [![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.012.jpeg)](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){target="_blank"} |
+| [![Day 1, 01 June](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/Sci_Writ_EAS_series/Day 1/Day 1.006.jpeg)](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){target="_blank"} |
 |-|
 
 ## Day 2 {-}
