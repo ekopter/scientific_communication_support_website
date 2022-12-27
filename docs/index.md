@@ -2,7 +2,7 @@
 title: "Scientific Communication Support"
 subtitle: "Ecology of Animal Societies"
 author: "Alie Ashbury"
-date: "last updated: 2022-12-19"
+date: "last updated: 2022-12-27"
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
