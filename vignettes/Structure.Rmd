@@ -1,0 +1,22 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+# Macrostructure {.unlisted .unnumbered #Structure}
+
+In scientific writing, structure is so important. Having information presented in the right order, in the right place, can get you far past half-way to having your audience really understand your writing. Even if you have some awkward sentences, less-than-ideal word choices, and other language issues, if information is organized properly
+
+It's not secret how much I love paragraphs. A clear and well-constructed paragraph is * chef's kiss *. 
+
+
+
+[Back to Blog main page](#blog_main)  
