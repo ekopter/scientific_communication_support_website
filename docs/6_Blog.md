@@ -10,6 +10,8 @@ editor_options:
 
 ## [Proper Paragraphing](#Paragraphs) {-}
 
+Paragraphs can be thought of as the basic building blocks of a text. Proper paragraphing is vital in scientific writing: if an author hasn't properly 'chunked' their writing, then the audience can't properly 'chunk' their reading and interpretation. In this post, I go over the basic tenants of effective paragraphing and effective paragraphs.
+
 ## [Scientific Writing in the EAS Dept](#EASslides) {-}
 
 Here, you can see my slides (& discussion notes) from the workshop/discussion series about *Scientific Writing in the EAS Department* that took place during lab meetings on June 1st & 22nd, and October 19th, 2022. 
