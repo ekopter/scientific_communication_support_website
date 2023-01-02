@@ -5,7 +5,7 @@ output_dir: ../docs
 rmd_files: ["index.Rmd", "2_programs.Rmd", "3_Sci_writing1.Rmd", "4_Sci_Presentations1.Rmd",
             "5_Data_viz.Rmd", "6_Blog.Rmd", "8_Impressum.Rmd", "8_Privacy.Rmd",
             "7_Blog_1_Feedback_framework.Rmd", "7_Blog_2_Abstracts.Rmd", "7_Blog_3_Titles.Rmd", "7_Blog_4_MSwordStyles.Rmd",
-            "7_Blog_5_Sci_Writ_EAS_slides.Rmd", "7_Blog_6_Paragraphs.Rmd", "Z_refs.Rmd"]
+            "7_Blog_5_Sci_Writ_EAS_slides.Rmd", "7_Blog_6_Paragraphs.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
 delete_merged_file: True
