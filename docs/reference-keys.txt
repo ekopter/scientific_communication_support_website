@@ -1,9 +1,0 @@
-welcome
-alies_programs
-sci_writ_main
-sci_presentations_main
-data_viz_main
-blog_main
-references-and-session-info
-session-info
-references
