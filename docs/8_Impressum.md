@@ -12,7 +12,7 @@ editor_options:
 *The following provides mandatory data concerning the provider of this website, obligations with regard to data protection, as well as other important legal references involving the Internet site of Alison Ashbury as required by German law.*
 
 ### Provider {-}
-The provider of this Internet site within the legal meaning of the term is Alison Ashbury.
+The provider of this Internet site within the legal meaning of the term is Alison Ashbury. All views expressed on this website are her own (unless otherwise explicitly stated & cited).
 
 ### Work Address {-}
 Max Planck Institute of Animal Behavior <br>
