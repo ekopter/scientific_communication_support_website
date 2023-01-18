@@ -39,6 +39,17 @@ Last fall (2022), we will had our first EAS Writing Retreat at the [Hotel St Eli
 
 ***Stay tuned for info about or next EAS Writing Retreat, which will take place in Spring 2023!***
   
+
+## Co-Writing Thursdays {-}
+
+Co-writing days take place every Thursday, and up to 4 people can join each day. We start at 9am and write until 5pm, following a set schedule of writing blocks and breaks. During writing sessions, we sit together in the same room and work quietly and independently on our own writing. Like a mini writing retreat, writing together can be really motivating and can help with staying focused.
+
+***If you'd like to participate in a co-writing day, [sign up here](https://docs.google.com/spreadsheets/d/1xdXCNQEE3PODH2Q4aI1c7A3heXJXacsQPLYiY-1O2Ps/edit?usp=sharing)!***
+
+If there are no open spots, add your name to the wait list and check back the day before to see if a slot has openned up! 
+
+We need a minimum of 2 participants for the co-writing day to take place. Please check the sign up sheet on Wednesday at 17:00; Unfortuantely, if you are the only person signed up for the next day, then co-writing is cancelled, sorry!!
+
   
 ## Writing Feedback Workshop {-}
 
@@ -59,11 +70,3 @@ The way it works:
 7. You consider participants' feedback carefully and critically, and move forward confidently with your manuscript writing!
 
 
-## Writing Solidarity Club {-}
-
-*Note: This program is on hold until further notice. If you are interested in this program, please contact me directly to let me know!*
-
-Lots of writing to do, but can't find the motivation? Need extra incentive to block off writing time? Come to Writing Solidarity Club! Bring your laptop and leave your over-active inner-critic behind! It's writing time!
-
-Every Tuesday, from 14:30 to 16:30, I will be writing in Bückle room 4.06 (the conference room next to MPI-AB reception). Anybody is welcome to join! No sign up required.  
-  
