@@ -26,19 +26,6 @@ By default, this slot is on Wednesday mornings, however, it can be moved if nece
 
 If you are working towards a tight deadline, and you need help before the next available slot, contact me! I can often be flexible and give you time sooner if necessary.  
   
-  
-## Writing Retreat {-}
-
-Writing retreats are an opportunity for department members to enjoy a change of pace and scenery, and devote some quality time to writing up their science in a collective and supportive environment.
-
-Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
-
-To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. About 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor).
-
-Last fall (2022), we will had our first EAS Writing Retreat at the [Hotel St Elisabeth Hegne](https://www.st-elisabeth-hegne.de/hotel-st-elisabeth.html) from November 21st to the 25th.
-
-***Stay tuned for info about or next EAS Writing Retreat, which will take place in Spring 2023!***
-  
 
 ## Co-Writing Thursdays {-}
 
@@ -50,7 +37,20 @@ If there are no open spots, add your name to the wait list and check back the da
 
 We need a minimum of 2 participants for the co-writing day to take place. Please check the sign up sheet on Wednesday at 17:00; Unfortuantely, if you are the only person signed up for the next day, then co-writing is cancelled, sorry!!
 
-  
+
+## Writing Retreat {-}
+
+Writing retreats are an opportunity for department members to enjoy a change of pace and scenery, and devote some quality time to writing up their science in a collective and supportive environment.
+
+Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
+
+To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. About 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor).
+
+Last fall (2022), we will had our first EAS Writing Retreat at the [Hotel St Elisabeth Hegne](https://www.st-elisabeth-hegne.de/hotel-st-elisabeth.html) from November 21st to the 25th.
+
+***Stay tuned for info about or next EAS Writing Retreat, which will take place May 22-26, 2023!***
+
+
 ## Writing Feedback Workshop {-}
 
 Do you have a manuscript that you're working on, and you're at a point where you'd really like to poll your future audience to find out what they think of the writing? Are you kinda stuck on a paper and not sure what direction to take it in terms of the story, framing, etc? Are you wondering if your manuscripts makes sense to anybody except you and your favorite co-author? 
