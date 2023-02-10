@@ -12,7 +12,7 @@ It's no secret how much I love good paragraphing. I think of paragraphs as the b
 
 ## One paragraph = One point {-}
 
-Generally speaking, a paragraph should be about 3 to 6 sentences long, and should make one single point. If you find that making a point is requiring much more than 6 sentences, then you should consider breaking it down into >1 sub-points, and devoting a paragraph to each. 
+Generally speaking, a paragraph should be about 3 to 6 sentences long, and should make one single point. If you find that making a point is requiring much more than 6 sentences, then you should consider breaking it down into >1 sub-points, and devoting a paragraph to each. Alternatively, if you find that you have single and double sentence paragraphs, you should consider that either these concepts/ideas need more explanation and context, or they should be grouped with other info under the same overarching point.
 
 A good rule of thumb is: **You and your readers should be able to summarize the topic of each paragraph in 5 words or less**. I recommend actually doing this as an exercise with any text that you are writing or editing - go through the text and try to write the topic of each paragraph in the margin. Notice where you struggle to concisely articulate the point or topic of a paragraph - is this because the paragraph is too long? too unfocused? meandering from one topic to another? generally unclear?
 
