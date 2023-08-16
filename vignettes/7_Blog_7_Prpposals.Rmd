@@ -1,0 +1,83 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+
+# Crafting a Research Proposal {.unlisted .unnumbered #Proposal}
+
+If you pursue a career in science, you will likely need to write *a lot* of proposals. These proposals may be for grants, jobs, research permits, field site access, or some combination of these. In some cases, the requirements for a proposal will be very clear: the person or organization to whom/which you are applying will give you clear instructions on what to include in your proposal, what the macrostructure should be (sections headings, etc), and other details like how long it should be. In these cases, **follow these instructions very carefully!** In other cases, the requirements may be less clear. For example, I once met a student whose potential master's supervisor had told him to "write a research proposal" on the topic of research that they had already discussed he would do for his master's, but gave no specific instructions. Where to even begin? 
+
+The following info is based on my own experiences of research proposal writing for permits and grants in ecology and animal behavior. I'm not sure exactly how generalizable this info will be beyond these disciplines, but I would assume that many things are the same across STEM disciplines.
+
+## The point of a Research Proposal
+
+The overarching goals of any research proposal are to show that: 
+
+**1)** Your research is necessary and important (and, in the case of competitive positions and grants, your research is the *most* necessary and important). 
+**2)** You know how to, and are capable of, successfully carrying out this research.
+
+Keep in mind that ***showing that your research is necessary and important (#1)*** is *relative to the person/organization to whom/which you are applying!* In other words, you need to frame your information in such a way that it will be deemed necessary and important to whomever is reviewing your application. For example, if you are applying for a grant from a conservation organization, you'll want to frame your project to show how it is necessary for solving a conservation challenge (e.g., species decline, climate change, etc) rather than its importance for answering, for example, theoretical questions (such as those having to do with evolutionary theory, sexual selection, etc).
+
+Furthermore, ***showing that you know how to, and are capable of, successfully carrying out this research (#2)*** goes beyond simply including your CV and/or a list of your experiences and qualifications in your proposal. Indeed, demonstrating your ability permeates all aspects of a research proposal. Did you carefully read the proposal instructions and follow them to the letter? Are you knowledgeable in the general topic and discipline on which your proposed work will be based? Have you thought through the materials and methods, and the budget for these, that will be required to do this research? Have you chosen valid and robust scientific methods? Have you carefully considered the potential impacts of your research? Is your proposal well-written and easy to read, showing that you can communicate your science effectively? Demonstrating that you have the knowledge and skills to carry out your proposed research may be explicit in some sections of a proposal (e.g., CV, methods), but is implicit in entire proposal, from content to presentation, from beginning to end.
+
+## Where to start?
+
+1. Look for specific instructions related to the proposal. Do these exist online somewhere? Do they give some indication of the information to include, maybe even some section headings? If so, follow these instructions exactly.
+
+2. See if you can get your hands on somebody's past successful proposal. Does your professor have examples from past students? Are there more advanced students in the lab who you can ask? Does the granting agency publish lists of past grant recipients? If so, you can contact some of these people and ask if they wouldn't mind sharing their proposals with you.
+
+3. Write a draft of your research proposal, following the general structure/outline that is asked for, or that successful applicants have used in the past. In the absence of this information, look below at the "What to put in a proposal" section!
+
+4. Get feedback! See my post about [giving and receiving scientific writing feedback here](#FF). Make sure that in the beginning, when you are asking for *content* feedback, your editor looks through the proposal instructions/requirements (if these exist) before reading through your draft. They can then evaluate, and give you comments/feedback on, the extent to which they feel that your proposal fulfills the specific given instructions, as well as the overarching goals (above) of a research proposal.
+
+5. Edit, change, add, subtract to/from your draft based on the feedback you've received, and your own knowledge and intuition. Repeat steps 4 and 5 until your proposal is ready!
+
+6. Submit your proposal! If you have to submit it online through an application portal, and especially if it is for something really competitive, try to submit it at least 12 hours ahead of the deadline! Often these online submission platforms will crash leading up to major deadlines because so many people are trying to use them!
+
+## What to put in a proposal
+
+If you haven't been given any specific instructions, the following outline would be a good place to start in terms of structuring your proposal. Adjust as you see fit, depending on your topic, audience, and any specific purposes of the proposal. An important thing to remember is that, usually, your research proposal should be understandable by a very broad scientific audience! You don't know who will be on a reviewing committee and it's unlikely to be anybody who is super familiar with your topic, study system, etc. As such, avoid using jargon, explain scientific terms that you can't be sure somebody in a different discipline would already know, don't get bogged down in topic-specific details unless absolutely necessary, and use relatively short and simple sentence structure. 
+
+1. **Abstract**: See below for a "Research proposal abstract recipe"!
+
+2. \* **The problem**: What is the overarching problem that your research aims to solve, or question that your research aims to answer? Why is it important to solve this problem or answer this question? Start broad and narrow down to the specific problem, or knowledge gap, at hand. Here, you are basically telling your audience why they should care about, and continue reading, your proposal.
+
+3. \* **Background**: How close (or far) are we to solving the problem / answering the question? What is already known about this topic? What obstacles or challenges need to be overcome for the problem to be solved or the specific question to be answered?
+
+4. **Study system**: What is a good system in which to investigate this problem/question, and why? What is the important background/contextual information about this study system?
+
+5. **Research Objectives and Approach**: What specific questions will your research aim to answer and/or what hypotheses will you test? What overarching plan/approach will you take? How will this get us closer to fixing the problem or answering the overarching question that you've laid out?
+
+6. **Research Plan**: In some detail, what exactly will you do? What is your approach, experiment/field plan, data analysis plan, project timeline, etc? Use subheadings in this section, such as *field site*, *study subjects*, *experimental procedure*, *data collection*, *sample analysis*, *data analysis*, etc - depending on what fits for your project. Especially if you are applying for a grant or funding for this project, make sure to devote enough space/detail to the *part for which you are requesting funding*! For example, if you are requesting funding for fieldwork, the bulk of this section should be dedicated to your fieldwork plans/methods, with less detail put on other aspects of your project such as data analysis (although, its still important to show that you've thought about this part and have a plan for what you'll do!). Note that some information, such as a timeline, may be better communicated using a figure (e.g. a Gantt chart) than in prose, and you should cite methods that have been validated and/or used in other research.
+
+7. **Implications**: What are the broader implications of this research? How will your results benefit society / this field of research / etc? Bring this back to the problem or knowledge gap that you introduced at the beginning.
+
+8. **About me**: Why are you the right person to carry out this research? What skills, experience, connections, and resources do you have [access to] that will enable you to successfully carry out this project? Don't just list experiences or skills that are already on your CV, rather, connect these to the research plan that you presented above. What did you learn from past experiences that is directly applicable to this project? What skills do you bring and how will those help you carry out this research?
+
+9. **Budget**: (Only for a grant/funding application) Write a short description of the categories of expenses that would be covered by this grant money. If requested, include an itemized list of how the money would be spent. For larger grant applications, and/or if requested, include a detailed spreadsheet of expenses, with an indication of which expenses you are requesting funding for and which are being covered by other sources (and, if applicable, what those sources are). 
+
+10. **CV**: Attach your CV to your application! (Eventually, I may do a post about academic CVs, and then I'll link to it here! Until then, ask friends/colleagues for examples, and/or just google it! Many academics have their CVs posted online, so it's easy to find a good example to mimic.)
+
+\* Note: The order in which you present **The Problem** and the **Background** may vary. If you are applying for something *competitive*, i.e. you are *competing* for a reviewer's time and attention, then I recommend using the order presented above. By first presenting the problem or question, you are more likely to grab your reader's attention. Once you have their attention, you can then fill them in on necessary background info/details. Alternatively, if your proposal is not for anything particularly competitive, and its purpose is more to show that you are knowledgeable and competent in this field, and that you have a good plan for your project (for example, if your supervisor has  asked you to write a project proposal before you begin your research, or in some cases for non-competitive research permit applications), then starting with the **Background** may be better, as it will allow you more space to review relevant literature and to fully flesh out the current state-of-the-art on a topic, before presenting **The Problem** or knowledge gap(s) in that topic. 
+
+## Research proposal abstract recipe
+
+For a detailed explanation of scientific abstracts, [see this post](#Abstracts). A proposal abstract is very similar to a regular paper abstract, except of course you don't have any results or conclusions yet and so you can use that space to better flesh out the background and problem. As such, I would generally recommend the following recipe (but of course, this is not a rigid rule! Adjust as you see fit for your own specific project and purposes!)...
+
+  1. \*Background, what is known (~1-2 sentences)
+  2. \*The Problem, knowledge gap, unknown (~1-2 sentences)
+  3. Research aim, question, hypothesis (~1-2 sentences)
+  4. Approach, study system, methods (~1-3 sentences)
+  5. Broader implications, importance (~1-3 sentences)
+
+\* Again, the order in which you present the **Background** and **The Problem** can be like this, or reversed. Because this is an abstract, and you want to write briefly and succinctly, it is often easier to have the background first. Furthermore, because the abstract is very short overall anyways, your reader/reviewer will get to the problem soon enough, even if it is presented second.  
