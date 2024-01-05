@@ -35,6 +35,8 @@ I'm Alie, the EAS department's Scientific Writer. My job is to support other dep
 
 If you have any questions or comments, or are interested in receiving my help for something you're working on, please feel free to contact me.
 
+![](/Users/aashbury/Documents/scientific_communication_support_website/docs/mattermost small.jpg){width=50%, height=50%}\
+
 `r icons::fontawesome$brands$slack` Alie  <br>
 
 `r icons::fontawesome$solid$envelope` aashbury@ab.mpg.de  <br>

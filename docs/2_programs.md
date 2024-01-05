@@ -29,8 +29,6 @@ If you are working towards a tight deadline, and you need help before the next a
 
 ## Co-Writing Thursdays {-}
 
-**Note: This program is currently on hold and will likely resume in October.**
-
 Co-writing daystake place every Thursday, and up to 4 people can join each day. We start at 9am and write until 5pm, following a set schedule of writing blocks and breaks. During writing sessions, we sit together in the same room and work quietly and independently on our own writing - writing together in this way can help with motivation and staying focused.
 
 ***If you'd like to participate in a co-writing day, [sign up here](https://docs.google.com/spreadsheets/d/1xdXCNQEE3PODH2Q4aI1c7A3heXJXacsQPLYiY-1O2Ps/edit?usp=sharing)!*** Don't hesitate to sign up for multiple Thursdays, and/or to sign up far in advance!
@@ -46,9 +44,9 @@ Writing retreats are an opportunity for department members to enjoy a change of 
 
 Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
 
-To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. About 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor).
+To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. At least 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor). Participants are welcome to reach out to me for any support they need to prepare for writing at the Retreat.
 
-***Stay tuned for info about or next EAS Writing Retreat, in Spring 2024!***
+***When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, Mattermost, and department meetings.***
 
 
 ## Writing Feedback Workshop {-}
