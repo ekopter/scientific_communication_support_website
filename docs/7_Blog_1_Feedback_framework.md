@@ -8,23 +8,37 @@ editor_options:
 
 
 
-# Feedback Framework {.unlisted .unnumbered #FF}
+# Feedback is your Friend {.unlisted .unnumbered #FF}
 
 Our goal when we write up our science is not to *document* what we have done, but to ***communicate*** it. And, as Joshua Schimel says in *Writing Science*, "It is the author's job to make the reader's job easy." In other words, whether or not we are successful in our scientific writing depends on whether or not our audience is able to - without any undo hardship - understand our message. So, how can we know if we are accomplishing this? How can we know if our audience is deriving the correct meaning from our writing? How can we know if they are achieving this relatively quickly and painlessly?
 
 ***We can ask them!***
 
-We can (and should!) ask our peers and our colleagues to read our writing and give us feedback. Soliciting feedback on your scientific writing should be an integrated part of your writing process. You should be getting feedback at several stages of the writing process, and you should get feedback from multiple people. You should also strive to *give* feedback often, and to a variety of people on a variety of different topics, at a variety of different writing stages. I would argue that *receiving and giving* writing feedback are the two best ways to improve our scientific writing - a particular text, but also our skillset in general.
+We can (and should!) ask our peers and our colleagues to read our writing and give us feedback. Soliciting feedback on your scientific writing should be an integral part of your writing process. You should also strive to *give* feedback often, and to a variety of people on a variety of different topics. I would argue that *receiving and giving* writing feedback are the two best ways to improve our scientific writing - a particular text, but also our skillset in general.
 
 When you get feedback on your writing, you should always consider it **carefully** and **critically**. If somebody has taken the time to give you feedback, make sure that you go through it all and carefully consider ever part of it. But, do not uncritically accept all feedback. Ultimately, you are the author of the text, and as long as your name is on it, you get to decide what feedback you accept and what you reject.
 
 ## When and Who? {-} 
 
-Whom you ask for feedback will depend on where you are at in this process and what kind of feedback you want/need. 
+Let's say that the process of writing a paper can generally be broken into 4 major stages (of course, there are many ways to break this down, but bear with me on the 4-stages theory). Once you have your major results and drafts of the most important figures, then you are....
 
-**Early** in the writing process, and/or when you want feedback that generally falls under the question of *"Is this correct?"*, it is usually better to get feedback from people who are familiar with your topic, or even with your particular project. This may include your supervisor, a student in your cohort, or a postdoc who works on the same project/system. People who are more familiar with, or even involved in, your research are often better at, for example, evaluating whether or not you have included the important background information/lit in your intro, or helping you to correctly explain and appropriately justify specific aspects of your study design. 
+***1. Planning*** - You're outlining the paper, deciding on the framing, drafting an abstract, catching up on background lit reading, etc etc.
 
-**Later** in the process, and/or when you want feedback that generally falls under the question of *"Is this clear?"*, it's usually good to get feedback from a mix of people who are familiar with your research, as well as those who are unfamiliar with your research (but who do have a general grasp of the scientific field). This may include people in your lab, department, or institute who work in the same field but not on the same project/system as you. People who aren't so familiar with your specific research are often better at, for example, highlighting gaps in info & explanations, or pointing out passages that are confusing or overly-'jargony'.
+***2. Drafting*** - You're writing it all out, getting everything down on the page.
+
+***3. Revising*** - You're soliciting & implementing feedback from others.
+
+***4. Completing*** - You're finalizing the paper, double checking citations, polishing the formatting, and submitting.
+
+You can (and should) solicit inputs from others at any and every stage of the process. Supervisors and co-authors especially should be involved in Planning, Revising, and Completing. 
+
+That said, *Stage 3: Revising* is when you can get the most feedback - since by then you have a draft, others can actually critically evaluate it and give you their impressions and suggestions about your paper. In this stage, you reach out to somebody, asking for them to review what you have written and to critique how you have written it. You then implement that feedback as best as you can and as much as you want, and then likely ask somebody else, and so on and so forth.
+
+Whom you ask for feedback will depend on where you are at in this stage and what kind of feedback you want/need. Ideally you will get feedback from a mix of Insiders (at the very least, all co-authors must weigh in!) and Outsiders...
+
+***Insiders***: When you want feedback that generally falls under the question of *"Is this correct?"*, it is usually better to get feedback from people who are familiar with your study. This includes your supervisor, coauthors, and other people who have a relatively in-depth knowledge about your project and study system. People who are more familiar with, or even involved in, your research are often better at, for example, evaluating whether or not you have framed your paper in such a way that captures the true importance of your study, or helping you to correctly explain and appropriately justify specific aspects of your study design. 
+
+***Outsiders***: When you want feedback that generally falls under the question of *"Is this clear?"*, it's usually good to get feedback from somebody (or a few people) who is less familiar with your research (but who does have a general grasp of the scientific field). This may include people in your lab, department, or institute who work in the same field but not on the same project/system as you. People who aren't so familiar with your specific research are often better at, for example, highlighting gaps in info & explanations, or pointing out passages that are confusing or overly-'jargony'.
 
 
 ## Depth of Feedback {-} 
@@ -41,7 +55,7 @@ There are essentially 3 'depths' at which you can get/give feedback. Generally s
 
 The depth at which you *give* feedback will likely vary throughout a text (for some problems, you might be able to give deeper feedback than other problems), and will generally depend a lot on the depth of your knowledge of the topic/research, the stage that the writing is at, and how much time you have.
 
-The dept at which you *take* feedback will also vary throughout a text - you might not like the deep feedback that somebody gives you (or their deep feedback might even change a passage to be incorrect!) but the shallow aspect of that feedback (that the presence of these edits indicate *where* there is a problem) is likely very legitimate - so although you may not take the editors suggested changes, you still need to change the problematic section.
+The depth at which you *take* feedback will also vary throughout a text - you might not like the deep feedback that somebody gives you (or their deep feedback might even change a passage to be incorrect!) but the shallow aspect of that feedback (that the presence of these edits indicate *where* there is a problem) is likely very legitimate - so although you may not take the editors suggested changes, you still need to change the problematic section.
 
 Also, it's important to remember that feedback need not be all about problems with a text! If there is a passage that is particularly well-written, a section that is particularly easy to read, and/or a notably great choice of wording or terminology, definitely put in a comment to let the author know! They can then attempt to replicate whatever they did in the good section when trying to improve problematic sections.
 
@@ -53,127 +67,162 @@ When you ask for (or are asked to give) writing feedback, first discuss the foll
 * Who is the audience for this text? What is the planned destination for this text, and what do they require in a text?
 (e.g., If it's a grant proposal, what does the granting agency want to see in the proposal?; If it's a journal article, what journal(s) is the author considering submitting to, and what are this journal's Instructions for Authors?; etc)
 
-* What is the current status of the text and what "stage" of feedback does the author want?
+* What is the current status of the text and on what should the reviewer focus?
 (see  below)
 
 * What, in particular (e.g., a certain idea/concept or a particular section), is the author struggling with or wanting help on?
 
-* What is the extent of the editor's previous knowledge about this topic/research, and how might that inform the type of feedback they can give?
+* What is the extent of the editor's general knowledge about this topic/field of research, and how might that inform the type of feedback they give?
 
 
-## Stages of feedback {-} 
+## Feedback Foci & Format {-} 
 
-![FF_graphic](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_1_FF_graphic.png){width=50%}\
-***First off, remember that:***
+Within the *Revising* stage of writing, there are 2 major, sequential, foci on which you can ask for feedback (again, bear with me as I break a complex and nebulous process down into discrete, somewhat arbitrary, parcels). It's important to solicit these two types of feedback in the correct order, starting with **Content & Structure**, and then - once you have that nailed down - moving on to **Language & Clarity**. ^[Side note: For many, this goes without saying, but some may need this reminder... If somebody is coming to you for writing feedback and they are in the *Revising* stage of writing, avoid instead giving them feedback about the *actual science itself* (e.g., the validity of the methods, the appropriateness of the statistical analysis, etc). As they have already - presumably - been through a long process of discussions, data analysis, and paper planning with their co-authors, and the ship has sailed on the science. If you feel that there are weaknesses in the science itself, give them feedback on how they address and/or explain these limitations appropriately, or temper their conclusions accordingly - i.e., writing feedback. If you feel that you have spotted a fatal flaw in their science (something that cannot be explained and that fundamentally invalidates their study), then of course you must point this out. But just generally bear in mind that you have been asked to provide *writing* feedback, not *study design & analysis* feedback.]
 
-1) Writing is not always a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or later edits to the language of a paper may prompt a more substantial re-structuring of a particular section; and 
-2) These stages are not discrete - e.g. when giving feedback on the content of a text, you will likely also have suggestions/comments about its structure (and vice versa).
+***1. Content & Structure***
 
-### Planning {-} 
+Here, the focus of the person giving feedback should be the *flow of ideas*. They should think about *what* and *where* information is presented. They should address broader, macro-level questions, such as:
 
-Before you really start writing, you need to plan out your text.
+* Is the importance of the study clear?
+* Is enough background/contextual information given in the intro and discussion?   
+* Are the results and implications of the study clear?
+* Is anything missing? Does anything seem superfluous/unnecessary?  
+* Do the paragraphs and sections follow a logical, coherent order?
+* Does each paragraph/section have a clear function? Is the paragraph-breaking appropriate?
+* Is there enough detail given in the methods and results that you can understand how the data were collected and analyzed? 
+* Are topics/foci presented in the same order through all sections of the text?  
 
-**The author:**  
-- is still chewing over ideas  
-- has done a lot of reading & research  
-- has some notes  
-- has a rough outline/overview  
-- has final-ish figures and tables (i.e. results)
+Of primary importance when asked to give this type of feedback is to *not get bogged down in the details*. Limit yourself to using **comments** and to directly discussing your feedback with the author, but try to avoid using **track-changes** (as this often will shift your mind towards the details). When asked for this type of feedback, I often will print out the paper and work on a hardcopy, as this helps me avoid getting bogged down in language and clarity edits.
 
-**While working through the text/notes, the editor should ask themselves:**  
-What is/are the main point/s the author wants to make?  
-What is the overarching story of this text?   
-What does the audience need to know in order for the author’s main point(s) to have an impact?  
+***2. Language & Clarity***
 
-**The editor should:**  
-- **discuss** the project with the author  
-- clarify questions/aims/goals of the text  
-- identify areas where further reading & research is needed  
-- help to develop an approach, structure, and maybe an outline  
-  
-### Content {-} 
+Here, the focus of the person giving feedback should be the *flow of the writing*. They should think about *how* information is presented. They should address specific, meso- and micro-level questions, such as:
 
-Content refers to what information, ideas, results, etc, actually get included in a text.
+* Where do you get stuck or confused? Where do you lose interest?
+* How could problem areas be changed to improve readability?  
+* Can the writing be made more concise and less wordy?
+* Does each sentence have a clear point/purpose?  
+* Does each paragraph have a specific topic and message? 
+* Does each sentence flow nicely from the next?
+* Are there sufficient and proper citations (especially in the intro and discussion)?
+* Check for: unnecessary lead-ins, run-on sentences, unclear antecedents, noun-verb accordance, proper punctuation, undefined or unnecessary acronyms, etc  
 
-**The author:**  
-- has a first draft (though it's not pretty, and many ideas may be still half-baked) or at least a thorough outline   
-- has thought about out the general content   
-- has a preliminary idea of the over-arching structure of the text  
-
-**While working through the text, the editor should ask themselves:**  
-Is the central idea of the text framed in an interesting and engaging way?   
-Is the author’s main point clearly explained, and enough background/ contextual information given for it to make sense?  
-Does the framing/contextualization of the topic make clear why this topic/problem is important?  
-Is anything missing? Does anything seem superfluous/unnecessary?  
-Does every method have a result and vice versa?  
-Do the data and analysis support the conclusions?  
-  
-**The editor should:**  
-- use **comments** to put feedback into the text  
-- identify areas that aren’t clear, ideas that don’t fit, and concepts that are missing  
-- only note language-related edits when necessary to clarify the meaning of a sentence  
-- focus on the *content* of the text and not on *how* it is written  
-
-### Structure {-} 
-
-Structure refers to where information/ideas/etc are presented in a text.
-
-**The author:**  
-- has a full draft of the text  
-- has basically finalized the draft content, and fully fleshed out the ideas  
-
-**While working through the text, the editor should ask themselves:**  
-Does each sentence, paragraph, and section have a clear point/message?  
-Can you quickly and easily summarize the topic/focus of each paragraph?  
-Generally, does each paragraph begin with a topic sentence, end with an emphasis or concluding sentence, and have supporting information in the middle?  
-Is information all in the right places (background, knowledge gap, approach in Intro; no Methods mixed in with the Results; no Discussion/interpretation mixed in with the Results; etc)?  
-Are topics/foci presented in the same order through all sections of the text?  
-
-**The editor should:**  
-- **track-changes** to mark suggested edits in the text  
-- add **comments** where more extensive edits are needed  
-- identify information that is out of place  
-- check for parallel structure(s)  
-- check paragraph structures  
-- focus more on *where* information/ideas are presented, and on the *ordering* of these, and less on *how* it is written  
+Of primary importance when asked to give this type of feedback is to *not attempt to overhaul the paper*. Unless you really believe that there is a fatal flaw in the content or structure of this paper, try to avoid making broad, macro-level suggestions. Instead, use **comments** and **track-changes** to provide specific feedback. Of course, it's often also a good idea to discuss your feedback with the author (or at least be available to answer any questions that they may have after going through your feedback.)
 
 
-### Language {-} 
-
-Language refers to the style, grammar, and syntax, of a text.
-
-**The author:**  
-- has a full, well-structured draft of the text  
-
-**While working through the text, the editor should ask themselves:**  
-As you read through, where do you get stuck or confused?
-How could problem areas be changed to improve readability?  
-Does each sentence flow nicely from the next? Are details introduced properly and relationally?  
-Check for: run-on sentences, noun-verb accordance, proper punctuation, etc  
-
-**The editor should:**  
-- **track-changes** to mark suggested edits in the text  
-- add **comments** to explain changes and to highlight recurring errors  
-- identify passages that may need to be rewritten or reworked for more clarification  
-- note ideas or suggestions of how to change problem passages (in comments or track-changes)  
-- focus on *how* the text is written, be thorough  
 
 
-### Polishing {-} 
+<!-- ![FF_graphic](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_1_FF_graphic.png){width=50%}\ -->
+<!-- ***First off, remember that:*** -->
 
-Polishing refers to that final step, when a text is essentially ready to be cast off into the world (i.e., submitted) and just needs a final check by a fresh set of eyes (not the author, who is probably pretty sick of looking at it).
+<!-- 1) Writing is not always a linear process - i.e. although most papers start with planning and end with polishing, they do not necessarily progress from planning to polishing in a linear sequential way, e.g. a paper may move back and forth between planning and content a few times, or later edits to the language of a paper may prompt a more substantial re-structuring of a particular section; and  -->
+<!-- 2) These stages are not discrete - e.g. when giving feedback on the content of a text, you will likely also have suggestions/comments about its structure (and vice versa). -->
 
-**The author:**  
-- has the text finished and in its “final” form  
-- has a submission deadline (if applicable) quickly approaching  
+<!-- ### Planning {-}  -->
 
-**While working through the text, the editor should check that:**  
-...jargon is defined, abbreviations are written out in full the first time, terminology is consistent throughout the text, punctuation is used correctly, etc  
+<!-- Before you really start writing, you need to plan out your text. -->
 
-**The editor should:**  
-- **track-changes** to mark suggested edits in the text    
-- put in as few changes as possible to ensure clarity and readability of the text  
-- mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible  
-- try to preserve the author’s writing as much as possible, while still ensuring clarity and flow  
+<!-- **The author:**   -->
+<!-- - is still chewing over ideas   -->
+<!-- - has done a lot of reading & research   -->
+<!-- - has some notes   -->
+<!-- - has a rough outline/overview   -->
+<!-- - has final-ish figures and tables (i.e. results) -->
+
+<!-- **While working through the text/notes, the editor should ask themselves:**   -->
+<!-- What is/are the main point/s the author wants to make?   -->
+<!-- What is the overarching story of this text?    -->
+<!-- What does the audience need to know in order for the author’s main point(s) to have an impact?   -->
+
+<!-- **The editor should:**   -->
+<!-- - **discuss** the project with the author   -->
+<!-- - clarify questions/aims/goals of the text   -->
+<!-- - identify areas where further reading & research is needed   -->
+<!-- - help to develop an approach, structure, and maybe an outline   -->
+
+<!-- ### Content {-}  -->
+
+<!-- Content refers to what information, ideas, results, etc, actually get included in a text. -->
+
+<!-- **The author:**   -->
+<!-- - has a first draft (though it's not pretty, and many ideas may be still half-baked) or at least a thorough outline    -->
+<!-- - has thought about out the general content    -->
+<!-- - has a preliminary idea of the over-arching structure of the text   -->
+
+<!-- **While working through the text, the editor should ask themselves:**   -->
+<!-- Is the central idea of the text framed in an interesting and engaging way?    -->
+<!-- Is the author’s main point clearly explained, and enough background/ contextual information given for it to make sense?   -->
+<!-- Does the framing/contextualization of the topic make clear why this topic/problem is important?   -->
+<!-- Is anything missing? Does anything seem superfluous/unnecessary?   -->
+<!-- Does every method have a result and vice versa?   -->
+<!-- Do the data and analysis support the conclusions?   -->
+
+<!-- **The editor should:**   -->
+<!-- - use **comments** to put feedback into the text   -->
+<!-- - identify areas that aren’t clear, ideas that don’t fit, and concepts that are missing   -->
+<!-- - only note language-related edits when necessary to clarify the meaning of a sentence   -->
+<!-- - focus on the *content* of the text and not on *how* it is written   -->
+
+<!-- ### Structure {-}  -->
+
+<!-- Structure refers to where information/ideas/etc are presented in a text. -->
+
+<!-- **The author:**   -->
+<!-- - has a full draft of the text   -->
+<!-- - has basically finalized the draft content, and fully fleshed out the ideas   -->
+
+<!-- **While working through the text, the editor should ask themselves:**   -->
+<!-- Does each sentence, paragraph, and section have a clear point/message?   -->
+<!-- Can you quickly and easily summarize the topic/focus of each paragraph?   -->
+<!-- Generally, does each paragraph begin with a topic sentence, end with an emphasis or concluding sentence, and have supporting information in the middle?   -->
+<!-- Is information all in the right places (background, knowledge gap, approach in Intro; no Methods mixed in with the Results; no Discussion/interpretation mixed in with the Results; etc)?   -->
+<!-- Are topics/foci presented in the same order through all sections of the text?   -->
+
+<!-- **The editor should:**   -->
+<!-- - **track-changes** to mark suggested edits in the text   -->
+<!-- - add **comments** where more extensive edits are needed   -->
+<!-- - identify information that is out of place   -->
+<!-- - check for parallel structure(s)   -->
+<!-- - check paragraph structures   -->
+<!-- - focus more on *where* information/ideas are presented, and on the *ordering* of these, and less on *how* it is written   -->
+
+
+<!-- ### Language {-}  -->
+
+<!-- Language refers to the style, grammar, and syntax, of a text. -->
+
+<!-- **The author:**   -->
+<!-- - has a full, well-structured draft of the text   -->
+
+<!-- **While working through the text, the editor should ask themselves:**   -->
+<!-- As you read through, where do you get stuck or confused? -->
+<!-- How could problem areas be changed to improve readability?   -->
+<!-- Does each sentence flow nicely from the next? Are details introduced properly and relationally?   -->
+<!-- Check for: run-on sentences, noun-verb accordance, proper punctuation, etc   -->
+
+<!-- **The editor should:**   -->
+<!-- - **track-changes** to mark suggested edits in the text   -->
+<!-- - add **comments** to explain changes and to highlight recurring errors   -->
+<!-- - identify passages that may need to be rewritten or reworked for more clarification   -->
+<!-- - note ideas or suggestions of how to change problem passages (in comments or track-changes)   -->
+<!-- - focus on *how* the text is written, be thorough   -->
+
+
+<!-- ### Polishing {-}  -->
+
+<!-- Polishing refers to that final step, when a text is essentially ready to be cast off into the world (i.e., submitted) and just needs a final check by a fresh set of eyes (not the author, who is probably pretty sick of looking at it). -->
+
+<!-- **The author:**   -->
+<!-- - has the text finished and in its “final” form   -->
+<!-- - has a submission deadline (if applicable) quickly approaching   -->
+
+<!-- **While working through the text, the editor should check that:**   -->
+<!-- ...jargon is defined, abbreviations are written out in full the first time, terminology is consistent throughout the text, punctuation is used correctly, etc   -->
+
+<!-- **The editor should:**   -->
+<!-- - **track-changes** to mark suggested edits in the text     -->
+<!-- - put in as few changes as possible to ensure clarity and readability of the text   -->
+<!-- - mark awkward sentences/sections as needing to be reworked – make suggestions of how, if possible   -->
+<!-- - try to preserve the author’s writing as much as possible, while still ensuring clarity and flow   -->
 
 [Back to Blog main page](#blog_main)
