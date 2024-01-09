@@ -1,0 +1,92 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+
+# Common Macrostructure of an Original Research Paper {.unlisted .unnumbered #Macrostructure}
+
+The following is from a handout that I give to students who are embarking on writing their first thesis or paper. There is no hard rule that says one *must* follow this structure, but if you are feeling like you don't know what you're doing, and what to write where, this might be a helpful place to start.
+
+## Title {-}
+A straight-forward statement that communicates the main finding, or topic, of your paper (For more details, see [my post about titles](#Titles)).
+
+## Abstract {-}
+A summary, or “road map,” of your paper. The following is a common abstract “recipe” for a scientific paper:
+
+1.	Background, what is known (~1 sentence)
+2.	Gap, unknown, problem (~1 sentence)
+3.	Study aim (~1 sentence)
+4.	Study system and approach (~1-2 sentences)
+5.	Key results (~1-3 sentences)
+6.	Conclusion, answer the question, fill the gap (~1 sentence)
+7.	Broader implications, meaning, recommendation (~1 sentence)
+
+For more details, see [my post about abstracts](#Abstracts).
+
+## Keywords {-}
+Important terms pertaining to the major topics/themes of your paper that are *not* in your title or abstract.
+
+## Introduction {-} 
+***What does my audience need to know in order to understand and care about my study?***
+
+1.	**Background**
+ * Why is this topic important? What is already known about this topic? 
+ * Summarize previous research at a high level, don’t get bogged down in unnecessary details.
+2.	**Knowledge gap**
+ * What do we not know yet, and why do we need to know this? 
+ * Narrow in towards your specific study question.
+3.	**Study system**
+ * Justify your choice of study system.
+ * Summarize the necessary background (what is already known) about this topic in your study system.
+ * Outline the knowledge gap with respect to your study system.
+4.	**This study**
+ * Broadly summarize your study’s objective/question, your hypotheses/predictions, and approach.
+ * Give a brief overview of the experimental design, observational set-up, and/or analytical/statistical approach.
+
+## Methods {-}
+***What does my audience need to know in order to trust and replicate my study?***
+
+ * You need to:
+   + Demonstrate that you used a scientifically valid method.
+   + Give all info that would be required for somebody to redo your study.
+ * This is the most ‘specialized’ part of your paper – be very specific!
+ * Break it into logical/meaningful subsections.
+
+## Results {-}
+***What does my audience need to know in order to trust the conclusions of my study?***
+
+ * Plainly describe what your data and statistical tests show. Put the biology up front, and the stats and technical details afterwards.
+ * Use figures and tables as the focal points, build the text around these.
+ * Break into subsections, e.g., one per major result or overarching question.
+
+## Discussion {-}
+***What does my audience need to know in order to understand the meaning and implications of my results?***
+
+1.	**Fill the knowledge gap**
+ * Broadly summarize your major results.
+ * Explicitly state how your result(s) fill (partly or in full) the knowledge gap presented in your introduction.
+ * This part should be understandable to somebody who hasn’t read the methods and results, but rather has skipped straight here after reading the last paragraph of your intro.
+2.	**Explain each major result**
+ * For each result (or group of related results), explain why this result was what it was, using evidence from the literature.
+ * Does this result agree with, or differ from, previous similar studies? What does this agreement or difference mean?
+ * What can be extrapolated from other studies to better understand this result?
+3.	**Address limitations & caveats**
+ * To what extent are your results not generalizable? 
+ * How might the limitations of your study have influence the results you found?
+4.	**Implications & take-home message**
+ * Sum it all up by distilling your main results to their logical conclusion.
+ * Answer the overarching question, or fill the knowledge gap, that you presented in your intro.
+ * Outline the broader implications of your findings.
+ * Finish by addressing the broad topic where your intro started.
+
+[Back to Blog main page](#blog_main)  

@@ -8,6 +8,11 @@ editor_options:
 
 # Blog {#blog_main}
 
+
+## [Common Macrostructure of an Original Research Paper](#Macrostructure) {-}
+
+This post is from a handout that I give to students who are embarking on writing their first thesis or paper. There is no hard rule that says one *must* follow this structure, but if you are feeling like you don't know what you're doing, and what to write where, this might be a helpful place to start.
+
 ## [Proper Paragraphing](#Paragraphs) {-}
 
 Paragraphs can be thought of as the basic building blocks of a text. Proper paragraphing is vital in scientific writing: if an author hasn't properly 'chunked' their writing, then the audience can't properly 'chunk' their reading and interpretation. In this post, I go over the basic tenants of effective paragraphing and effective paragraphs.
