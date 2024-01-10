@@ -57,7 +57,7 @@ The depth at which you *give* feedback will likely vary throughout a text (for s
 
 The depth at which you *take* feedback will also vary throughout a text - you might not like the deep feedback that somebody gives you (or their deep feedback might even change a passage to be incorrect!) but the shallow aspect of that feedback (that the presence of these edits indicate *where* there is a problem) is likely very legitimate - so although you may not take the editors suggested changes, you still need to change the problematic section.
 
-Also, it's important to remember that feedback need not be all about problems with a text! If there is a passage that is particularly well-written, a section that is particularly easy to read, and/or a notably great choice of wording or terminology, definitely put in a comment to let the author know! They can then attempt to replicate whatever they did in the good section when trying to improve problematic sections.
+Also, it's important to remember that feedback need not be all about problems with a text! In fact, you can think about ***positive feedback*** as having these same levels as well: *Shallow positive feedback* points out a piece of the text that is particularly effective, *Middle positive feedback* describes why part of a text is particularly effective, and *Deep positive feedback* explains how the good aspects of this piece of text could potentially be extrapolated to other, weaker parts of the text. Whenever possible, include positive feedback when you are reviewing a text - this can really help an author to understand what makes their writing effective.
 
 
 ## When asking for feedback {-} 

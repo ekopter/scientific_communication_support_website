@@ -15,7 +15,7 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Common Macrostructure of an Original Research Paper {.unlisted .unnumbered #Macrostructure}
 
-The following is from a handout that I give to students who are embarking on writing their first thesis or paper. There is no hard rule that says one *must* follow this structure, but if you are feeling like you don't know what you're doing, and what to write where, this might be a helpful place to start.
+The following is from a handout that I give to students who are embarking on writing their first paper. There is no hard rule that says one *must* follow this structure, but if you are feeling like you don't know what you're doing, and what to write where, this might be a helpful place to start. Of course, you should always check the author guidelines for your target journal, as many have specific macrostructure requirements. Furthermore, look at several papers published in your target journal, and see what sort of length and structure they have, and then aim to mimic this as closely as you can with your own paper. However, that said, if you follow the macrostructure below, your paper should be relatively adaptable to the specific structural requirements of any journal.
 
 ## Title {-}
 A straight-forward statement that communicates the main finding, or topic, of your paper (For more details, see [my post about titles](#Titles)).
