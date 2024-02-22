@@ -13,6 +13,9 @@ knitr::opts_knit$set(root.dir = '../')
 
 # Blog {#blog_main}
 
+## [Perfecting the Scientific Poster](#Posters) {-}
+
+A good scientific conference poster accomplishes 3 main goals: 1) it grabs people's attention, 2) it simply and quickly communicates the main point of a study, and 3) it facilitates a conversation between the poster presenter and their target audience members. In this post, I go through some of the most important (and most often violated) rules of poster making.
 
 ## [Common Macrostructure of an Original Research Paper](#Macrostructure) {-}
 
