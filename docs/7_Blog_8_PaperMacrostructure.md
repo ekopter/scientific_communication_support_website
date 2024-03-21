@@ -32,7 +32,7 @@ For more details, see [my post about abstracts](#Abstracts).
 Important terms pertaining to the major topics/themes of your paper that are *not* in your title or abstract.
 
 ## Introduction {-} 
-***What does my audience need to know in order to understand and care about my study?***^[If you are writing a *thesis* that is like one big paper (e.g., master's or bachelor's thesis), the introduction may also serves as a more extensive literature review, wherein you prove to your professor/committee that you've done your background research and that you have a deep understanding of this topic. In this case, your intro would likely be longer than a regular peer-reviewed journal paper, and you might even break your intro down into subsections - each subsection could, for example, address the background and knowledge gap of one aspect of your topic, then a subsection to give an extensive overview of your study system and the background and knowledge gaps with respect to your study system, then a more extensive outline of your study, including detailed hypotheses and predictions. It's a good idea to discuss with your supervisor ahead of time about what their expectations are for your thesis, and how extensive they would like the background lit review (i.e., the intro) to be - some supervisors will want you to write it like a peer-review journal article (straight to the point), whereas others will want a more extensive lit review and proof that you've done your research and know this topic inside and out. Remember, in the case of a thesis, your main audience is whoever is grading it, and you probably know these people! So you can directly ask them what they are looking for!]
+***What does my audience need to know in order to understand and care about my study?***[^*]
 
 1.	**Background**
  * Why is this topic important? What is already known about this topic? 
@@ -83,5 +83,9 @@ Important terms pertaining to the major topics/themes of your paper that are *no
  * Answer the overarching question, or fill the knowledge gap, that you presented in your intro.
  * Outline the broader implications of your findings.
  * Finish by addressing the broad topic where your intro started.
+ 
+ ---
+ 
+[^*]: If you are writing a thesis that is like one big paper (e.g., master's or bachelor's thesis), the introduction may also serves as a more extensive literature review, wherein you prove to your professor/committee that you've done your background research and that you have a deep understanding of this topic. In this case, your intro would likely be longer than a regular peer-reviewed journal paper, and you might even break your intro down into subsections - each subsection could, for example, address the background and knowledge gap of one aspect of your topic, then a subsection to give an extensive overview of your study system and the background and knowledge gaps with respect to your study system, then a more extensive outline of your study, including detailed hypotheses and predictions. It's a good idea to discuss with your supervisor ahead of time about what their expectations are for your thesis, and how extensive they would like the background lit review (i.e., the intro) to be - some supervisors will want you to write it like a peer-review journal article (straight to the point), whereas others will want a more extensive lit review and proof that you've done your research and know this topic inside and out. Remember, in the case of a thesis, your main audience is whoever is grading it, and you probably know these people! So you can directly ask them what they are looking for!
 
 [Back to Blog main page](#blog_main)  
