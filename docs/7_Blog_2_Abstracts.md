@@ -57,9 +57,9 @@ Whatever your process, I encourage you to not leave the abstract until the end, 
 
 Here are a few examples of abstracts, which I've annotated in accordance with the above abstract recipe... 
 
-![Morrison et al. 2020](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.001.jpeg)\
-![Havmøller et al. 2021](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.002.jpeg)\
-![Strandburg-Peshkin et al. 2015](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.003.jpeg)\
-![Loftus et al. 2022](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.004.jpeg)\
+![Morrison et al. 2020](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.001.jpeg)\
+![Havmøller et al. 2021](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.002.jpeg)\
+![Strandburg-Peshkin et al. 2015](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.003.jpeg)\
+![Loftus et al. 2022](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_2_Abstract_examples_jpg/Abstract examples.004.jpeg)\
   
 [Back to Blog main page](#blog_main)  
