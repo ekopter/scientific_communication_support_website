@@ -21,11 +21,11 @@ Once each week, I have a slot of time that I can dedicate towards helping a depa
 
 When you book the slot, you get ~4 hours of my time that week, and we can use that time in whatever way would be most beneficial to you. 
 
-So, for example, if you want edits on a paper, you could send me the draft, and I'll spend 3-4 hours reading it and putting in comments/edits, and then I can send it back to you, and we meet to discuss. Or, maybe you want to brainstorm and discuss some ideas or parts of a writing project that you're stuck on, or having trouble even starting. Or, maybe you want to give a practice talk for a conference, and receive feedback about your presentation and slides. Basically, it's totally flexible, so think specifically about what you are hoping that I can help you with, and how best to structure up to 4 hours of time in order to achieve that. 
+So, for example, if you want edits on a paper, you could send me the draft, and I'll spend 3-4 hours reading it and putting in comments/edits, and then I can send it back to you, and we meet to discuss. Or, maybe you want to brainstorm and discuss some ideas or parts of a writing project that you're stuck on, or having trouble even starting. In this case, we can meet, discuss, whiteboard, and make a plan for moving forwards. Or, maybe you want to give a practice talk for a conference, and receive feedback about your presentation and slides. Basically, it's totally flexible, so think specifically about what you are hoping that I can help you with, and how best to structure up to 4 hours of time in order to achieve that. 
 
 *An important thing to note:* If what you want is for me to look over a draft manuscript and provide feedback, you should have received (and implemented) feedback from at least one other "outsider" (not a co-author) before coming to me :) You can find more info about getting (and giving!) feedback here: [Feedback is your Friend](#FF).
 
-***Sign up*** in the EAS department google calendar, look for a Wednesday morning "Scientific Writing Support with Alie" slot that doesn't yet have somebody's name in it. Replace "[Name]" with your name. If you are not a member of the EAS department, or don't have access to the EAS calendar, email me directly!
+To ***Sign up***, look in the EAS department google calendar for a Wednesday morning "Scientific Writing Support with Alie" slot that doesn't yet have somebody's name in it. If you have write access, just replace "[Name]" with your name. If you can't edit this calendar, just email or mattermost me to let me know that you'd like the slot! If you are not a member of the EAS department, I can put you on a waitlist and you can take the spot if no EAS member signs up.
 
 By default, this slot is on Wednesday mornings, however, it can be moved if necessary! Sign up for the Wednesday slot to claim my time that week, but then contact me to sort out an alternative day/time.
 
@@ -35,6 +35,8 @@ If you are working towards a tight deadline, and you need help before the next a
   
 
 ## Co-Writing Thursdays {-}
+
+***Co-writing Thursdays are on hold for the summer! I will announce by email, mattermost, and/or dept meeting when we start back up in the fall.***
 
 Co-writing days take place every Thursday, and up to 4 people can join each day. We start at 9:30am and write until 5pm, following a set schedule of writing blocks and breaks. During writing sessions, we sit together in the same room and work quietly and independently on our own writing - writing together in this way can help with motivation and staying focused.
 
@@ -47,13 +49,15 @@ We need a minimum of 2 participants for the co-writing day to take place. Please
 
 ## Writing Retreat {-}
 
+***When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, Mattermost, and department meetings.***
+
 Writing retreats are an opportunity for department members to enjoy a change of pace and scenery, and devote some quality time to writing up their science in a collective and supportive environment.
 
 Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
 
 To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. At least 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor). Participants are welcome to reach out to me for any support they need to prepare for writing at the Retreat.
 
-***When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, Mattermost, and department meetings.***
+
 
 
 <!-- ## Writing Feedback Workshop {-} -->
