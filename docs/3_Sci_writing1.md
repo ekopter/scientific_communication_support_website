@@ -25,6 +25,15 @@ The above quotes highlight several key qualities of effective scientific writing
 
 ## Resources {-}
 
+### Online resources {-}
+
+The [Writing Scientist](https://writingscientist.com/) has a great blog with many posts about how to approach and execute scientific writing projects. I also highly recommend signing up for the newsletter, which is full of helpful tips and interesting insights pertaining to writing scientific papers (and dissertation chapters).
+
+The [Duke Graduate School Scientific Writing Resource](https://sites.duke.edu/scientificwriting/) consists of 3 sections (lessons) all aimed at teaching you how to write more effectively.
+
+In this lecture, entitled [Scientific Writing: Beyond Tips and Tricks, Judy Swan](https://www.youtube.com/watch?v=jLPCdDp_LE0&ab_channel=PublicCommunicationforResearchers) discusses what makes for good writing, and how to get readers to pay the most attention to what you think is the most important.
+
+
 ### Books {-}
 
 When I find books about scientific writing that I think are really good and helpful, I will list them here and also ask that they be ordered for our department. So you should be able to find the following books on our 5th floor mini library:
@@ -39,13 +48,6 @@ When I find books about scientific writing that I think are really good and help
 [Ten simple rules for structuring papers, Mensh & Kording 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619#sec003) is an excellent paper that outlines 10 rules for approaching and structuring a paper, so as to make it as easy as possible for your audience to understand your message.
 
 [Finding the "Pitch" in Ecological Writing, Cahill et al. 2011](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9623-92.2.196) is about how to approach writing a scientific paper, such that it is catchy and sticks with your readers.
-
-
-### Online resources {-}
-
-The [Duke Graduate School Scientific Writing Resource](https://sites.duke.edu/scientificwriting/) consists of 3 sections (lessons) all aimed at teaching you how to write more effectively.
-
-In this lecture, entitled [Scientific Writing: Beyond Tips and Tricks, Judy Swan](https://www.youtube.com/watch?v=jLPCdDp_LE0&ab_channel=PublicCommunicationforResearchers) discusses what makes for good writing, and how to get readers to pay the most attention to what you think is the most important.
 
 
 ### Courses {-}
