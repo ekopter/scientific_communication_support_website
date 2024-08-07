@@ -59,10 +59,4 @@ When I find books about scientific writing that I think are really good and help
 
 If you come across a good scientific writing resource, please let me know about it!
 
-### Other {-}
 
-The following are resources that I've come across, but haven't yet had a chance to read through and fully vet. When I do, if I like them, I'll move them to the lists above. For now, I'm just keeping track of them here...
-
-[10 Simple Steps to Writing a Scientific Paper](https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1)
-
-[How to Write a Good Scientific Paper](https://spie.org/samples/9781510619142.pdf)
