@@ -32,7 +32,7 @@ The above quotes highlight several key qualities of effective scientific writing
 
 ### Online resources {-}
 
-The [Writing Scientist](https://writingscientist.com/) has a great blog with many posts about how to approach and execute scientific writing projects. I also highly recommend signing up for the newsletter, which is full of helpful tips and interesting insights pertaining to writing scientific papers (and dissertation chapters).
+The [Writing Scientist](https://writingscientist.com/) has a great blog with many posts about how to approach and execute scientific writing projects. I also highly recommend signing up for the newsletter, which often has helpful tips and interesting insights pertaining to writing scientific papers (and dissertation chapters).
 
 The [Duke Graduate School Scientific Writing Resource](https://sites.duke.edu/scientificwriting/) consists of 3 sections (lessons) all aimed at teaching you how to write more effectively.
 
