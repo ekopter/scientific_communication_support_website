@@ -31,7 +31,7 @@ Let's say that the process of writing a paper can generally be broken into 4 maj
 
 ***2. Drafting*** - You're writing it all out, getting everything down on the page.
 
-***3. Revising*** - You're soliciting & implementing feedback from others.
+***3. Revising*** - You're iterating through your draft, editing, improving, clarifying, etc, as you go, as well as soliciting & implementing feedback from others.
 
 ***4. Completing*** - You're finalizing the paper, double checking citations, polishing the formatting, and submitting.
 

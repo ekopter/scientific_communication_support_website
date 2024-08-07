@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1 Alie’s Programs | 2_programs.knit</title>
+  <meta name="description" content="" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1 Alie’s Programs | 2_programs.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1 Alie’s Programs | 2_programs.knit" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+<script>
+/* ========================================================================
+ * Bootstrap: transition.js v3.3.7
+ * http://getbootstrap.com/javascript/#transitions
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // ============================================================
+
+  function transitionEnd() {
+    var el = document.createElement('bootstrap')
+
+    var transEndEventNames = {
+      WebkitTransition : 'webkitTransitionEnd',
+      MozTransition    : 'transitionend',
+      OTransition      : 'oTransitionEnd otransitionend',
+      transition       : 'transitionend'
+    }
+
+    for (var name in transEndEventNames) {
+      if (el.style[name] !== undefined) {
+        return { end: transEndEventNames[name] }
+      }
+    }
+
+    return false // explicit for ie8 (  ._.)
+  }
+
+  // http://blog.alexmaccaw.com/css-transitions
+  $.fn.emulateTransitionEnd = function (duration) {
+    var called = false
+    var $el = this
+    $(this).one('bsTransitionEnd', function () { called = true })
+    var callback = function () { if (!called) $($el).trigger($.support.transition.end) }
+    setTimeout(callback, duration)
+    return this
+  }
+
+  $(function () {
+    $.support.transition = transitionEnd()
+
+    if (!$.support.transition) return
+
+    $.event.special.bsTransitionEnd = {
+      bindType: $.support.transition.end,
+      delegateType: $.support.transition.end,
+      handle: function (e) {
+        if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments)
+      }
+    }
+  })
+
+}(jQuery);
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: collapse.js v3.3.7
+ * http://getbootstrap.com/javascript/#collapse
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/* jshint latedef: false */
+
++function ($) {
+  'use strict';
+
+  // COLLAPSE PUBLIC CLASS DEFINITION
+  // ================================
+
+  var Collapse = function (element, options) {
+    this.$element      = $(element)
+    this.options       = $.extend({}, Collapse.DEFAULTS, options)
+    this.$trigger      = $('[data-toggle="collapse"][href="#' + element.id + '"],' +
+                           '[data-toggle="collapse"][data-target="#' + element.id + '"]')
+    this.transitioning = null
+
+    if (this.options.parent) {
+      this.$parent = this.getParent()
+    } else {
+      this.addAriaAndCollapsedClass(this.$element, this.$trigger)
+    }
+
+    if (this.options.toggle) this.toggle()
+  }
+
+  Collapse.VERSION  = '3.3.7'
+
+  Collapse.TRANSITION_DURATION = 350
+
+  Collapse.DEFAULTS = {
+    toggle: true
+  }
+
+  Collapse.prototype.dimension = function () {
+    var hasWidth = this.$element.hasClass('width')
+    return hasWidth ? 'width' : 'height'
+  }
+
+  Collapse.prototype.show = function () {
+    if (this.transitioning || this.$element.hasClass('in')) return
+
+    var activesData
+    var actives = this.$parent && this.$parent.children('.panel').children('.in, .collapsing')
+
+    if (actives && actives.length) {
+      activesData = actives.data('bs.collapse')
+      if (activesData && activesData.transitioning) return
+    }
+
+    var startEvent = $.Event('show.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    if (actives && actives.length) {
+      Plugin.call(actives, 'hide')
+      activesData || actives.data('bs.collapse', null)
+    }
+
+    var dimension = this.dimension()
+
+    this.$element
+      .removeClass('collapse')
+      .addClass('collapsing')[dimension](0)
+      .attr('aria-expanded', true)
+
+    this.$trigger
+      .removeClass('collapsed')
+      .attr('aria-expanded', true)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse in')[dimension]('')
+      this.transitioning = 0
+      this.$element
+        .trigger('shown.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    var scrollSize = $.camelCase(['scroll', dimension].join('-'))
+
+    this.$element
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)[dimension](this.$element[0][scrollSize])
+  }
+
+  Collapse.prototype.hide = function () {
+    if (this.transitioning || !this.$element.hasClass('in')) return
+
+    var startEvent = $.Event('hide.bs.collapse')
+    this.$element.trigger(startEvent)
+    if (startEvent.isDefaultPrevented()) return
+
+    var dimension = this.dimension()
+
+    this.$element[dimension](this.$element[dimension]())[0].offsetHeight
+
+    this.$element
+      .addClass('collapsing')
+      .removeClass('collapse in')
+      .attr('aria-expanded', false)
+
+    this.$trigger
+      .addClass('collapsed')
+      .attr('aria-expanded', false)
+
+    this.transitioning = 1
+
+    var complete = function () {
+      this.transitioning = 0
+      this.$element
+        .removeClass('collapsing')
+        .addClass('collapse')
+        .trigger('hidden.bs.collapse')
+    }
+
+    if (!$.support.transition) return complete.call(this)
+
+    this.$element
+      [dimension](0)
+      .one('bsTransitionEnd', $.proxy(complete, this))
+      .emulateTransitionEnd(Collapse.TRANSITION_DURATION)
+  }
+
+  Collapse.prototype.toggle = function () {
+    this[this.$element.hasClass('in') ? 'hide' : 'show']()
+  }
+
+  Collapse.prototype.getParent = function () {
+    return $(this.options.parent)
+      .find('[data-toggle="collapse"][data-parent="' + this.options.parent + '"]')
+      .each($.proxy(function (i, element) {
+        var $element = $(element)
+        this.addAriaAndCollapsedClass(getTargetFromTrigger($element), $element)
+      }, this))
+      .end()
+  }
+
+  Collapse.prototype.addAriaAndCollapsedClass = function ($element, $trigger) {
+    var isOpen = $element.hasClass('in')
+
+    $element.attr('aria-expanded', isOpen)
+    $trigger
+      .toggleClass('collapsed', !isOpen)
+      .attr('aria-expanded', isOpen)
+  }
+
+  function getTargetFromTrigger($trigger) {
+    var href
+    var target = $trigger.attr('data-target')
+      || (href = $trigger.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') // strip for ie7
+
+    return $(target)
+  }
+
+
+  // COLLAPSE PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this   = $(this)
+      var data    = $this.data('bs.collapse')
+      var options = $.extend({}, Collapse.DEFAULTS, $this.data(), typeof option == 'object' && option)
+
+      if (!data && options.toggle && /show|hide/.test(option)) options.toggle = false
+      if (!data) $this.data('bs.collapse', (data = new Collapse(this, options)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.collapse
+
+  $.fn.collapse             = Plugin
+  $.fn.collapse.Constructor = Collapse
+
+
+  // COLLAPSE NO CONFLICT
+  // ====================
+
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+  // COLLAPSE DATA-API
+  // =================
+
+  $(document).on('click.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
+    var $this   = $(this)
+
+    if (!$this.attr('data-target')) e.preventDefault()
+
+    var $target = getTargetFromTrigger($this)
+    var data    = $target.data('bs.collapse')
+    var option  = data ? 'toggle' : $this.data()
+
+    Plugin.call($target, option)
+  })
+
+}(jQuery);
+</script>
+<script>
+window.initializeCodeFolding = function(show) {
+
+  // handlers for show-all and hide all
+  $("#rmd-show-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('show');
+    });
+  });
+  $("#rmd-hide-all-code").click(function() {
+    $('div.r-code-collapse').each(function() {
+      $(this).collapse('hide');
+    });
+  });
+  
+  // index for unique code element ids
+  var currentIndex = 1;
+
+  // select all R code blocks
+  var rCodeBlocks = $('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan');
+  rCodeBlocks.each(function() {
+
+    // create a collapsable div to wrap the code in
+    var div = $('<div class="collapse r-code-collapse"></div>');
+    if (show)
+      div.addClass('in');
+    var id = 'rcode-643E0F36' + currentIndex++;
+    div.attr('id', id);
+    $(this).before(div);
+    $(this).detach().appendTo(div);
+
+    // add a show code button right above
+    // var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
+    var showCodeText = $('<img style="width:45px;" src="img/both.svg">');
+    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
+    showCodeButton.append(showCodeText);
+    showCodeButton
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    var buttonRow = $('<div class="row"></div>');
+    var buttonCol = $('<div class="col-md-12"></div>');
+
+    var buttonColK = $('<div class="check"><input type="checkbox" id="cc_' + id + '" class="btn btn-default btn-xs code-folding-btn pull-right ch1" /><label class="checktrue" for="cc_' + id + '" ></label></div>');
+
+    buttonColK
+        .attr('data-toggle', 'collapse')
+        .attr('data-target', '#' + id)
+        .attr('aria-expanded', show)
+        .attr('aria-controls', id);
+
+    //buttonCol.append(showCodeButton);
+    buttonRow.append(buttonCol);
+    buttonCol.append(buttonColK);
+
+    div.before(buttonRow);
+
+    // update state of button on show/hide
+    div.on('hidden.bs.collapse', function () {
+      showCodeText.text();
+    });
+    div.on('show.bs.collapse', function () {
+      showCodeText.text();
+    });
+  });
+
+}
+</script>
+<script>
+/* ========================================================================
+ * Bootstrap: dropdown.js v3.3.7
+ * http://getbootstrap.com/javascript/#dropdowns
+ * ========================================================================
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+
++function ($) {
+  'use strict';
+
+  // DROPDOWN CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.dropdown-backdrop'
+  var toggle   = '[data-toggle="dropdown"]'
+  var Dropdown = function (element) {
+    $(element).on('click.bs.dropdown', this.toggle)
+  }
+
+  Dropdown.VERSION = '3.3.7'
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      if (e && e.type == 'click' && /input|textarea/i.test(e.target.tagName) && $.contains($parent[0], e.target)) return
+
+      $parent.trigger(e = $.Event('hide.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+    })
+  }
+
+  Dropdown.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $(document.createElement('div'))
+          .addClass('dropdown-backdrop')
+          .insertAfter($(this))
+          .on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.dropdown', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger($.Event('shown.bs.dropdown', relatedTarget))
+    }
+
+    return false
+  }
+
+  Dropdown.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if (!isActive && e.which != 27 || isActive && e.which == 27) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('.dropdown-menu' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--         // up
+    if (e.which == 40 && index < $items.length - 1) index++         // down
+    if (!~index)                                    index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+
+  // DROPDOWN PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.dropdown')
+
+      if (!data) $this.data('bs.dropdown', (data = new Dropdown(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.dropdown
+
+  $.fn.dropdown             = Plugin
+  $.fn.dropdown.Constructor = Dropdown
+
+
+  // DROPDOWN NO CONFLICT
+  // ====================
+
+  $.fn.dropdown.noConflict = function () {
+    $.fn.dropdown = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.dropdown.data-api', clearMenus)
+    .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
+    .on('click.bs.dropdown.data-api', toggle, Dropdown.prototype.toggle)
+    .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
+    .on('keydown.bs.dropdown.data-api', '.dropdown-menu', Dropdown.prototype.keydown)
+
+}(jQuery);
+</script>
+<script>
+$(document).ready(function() {
+
+  // Section anchors
+  $('.section h1, .section h2, .section h3, .section h4, .section h5').each(function() {
+    anchor = '#' + $(this).parent().attr('id');
+    $(this).addClass("hasAnchor").append('<a href="' + anchor + '" class="anchor"></a>');
+  });
+});
+</script>
+<link rel="shortcut icon" href="img/favicon.ico" />
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+<script>document.write('<div class="btn-group pull-right" style="position: absolute; top: 35px; right: 2%; z-index: 10"><button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"aria-expanded="true" data-_extension-text-contrast=""><span>global code</span><span class="caret"></span></button><ul class="dropdown-menu" style="min-width: 50px;"><li><a id="rmd-show-all-code" href="#">Show All</a></li><li><a id="rmd-hide-all-code" href="#">Hide All</a></li></ul></div>')</script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://www.ab.mpg.de/crofoot">Ecology of Animal Societies</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path=""><a href="#alies_programs"><i class="fa fa-check"></i><b>1</b> Alie’s Programs</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#writing-support"><i class="fa fa-check"></i>Writing Support</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#co-writing-thursdays"><i class="fa fa-check"></i>Co-Writing Thursdays</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#writing-retreat"><i class="fa fa-check"></i>Writing Retreat</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#miscellaneous"><i class="fa fa-check"></i>Miscellaneous</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#got-an-idea"><i class="fa fa-check"></i>Got an idea?</a></li>
+</ul></li>
+<li class="divider"></li>
+<img style="position:absolute; bottom:0px; left:0px; width:100%; pointer-events:none;" src="./img/eas_cropped.png">
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<div id="alies_programs" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Alie’s Programs<a href="#alies_programs" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The following programs are available to members of the EAS department. Contact me for more info!</p>
+<div id="writing-support" class="section level2 unnumbered hasAnchor">
+<h2>Writing Support<a href="#writing-support" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Once each week, I have a slot of time that I can dedicate towards helping a department member with a scientific communication task/project.</p>
+<p>When you book the slot, you get ~4 hours of my time that week, and we can use that time in whatever way would be most beneficial to you.</p>
+<p>So, for example, if you want edits on a paper, you could send me the draft, and I’ll spend 3-4 hours reading it and putting in comments/edits, and then I can send it back to you, and we meet to discuss. Or, maybe you want to brainstorm and discuss some ideas or parts of a writing project that you’re stuck on, or having trouble even starting. In this case, we can meet, discuss, whiteboard, and make a plan for moving forwards. Or, maybe you want to give a practice talk for a conference, and receive feedback about your presentation and slides. Basically, it’s totally flexible, so think specifically about what you are hoping that I can help you with, and how best to structure up to 4 hours of time in order to achieve that.</p>
+<p><em>An important thing to note:</em> If what you want is for me to look over a draft manuscript and provide feedback, you should have received (and implemented) feedback from at least one other “outsider” (not a co-author) before coming to me :) You can find more info about getting (and giving!) feedback here: <a href="#FF">Feedback is your Friend</a>.</p>
+<p>To <strong><em>Sign up</em></strong>, look in the EAS department google calendar for a Wednesday morning “Scientific Writing Support with Alie” slot that doesn’t yet have somebody’s name in it. If you have write access, just replace “[Name]” with your name. If you can’t edit this calendar, just email or mattermost me to let me know that you’d like the slot! If you are not a member of the EAS department, I can put you on a waitlist and you can take the spot if no EAS member signs up.</p>
+<p>By default, this slot is on Wednesday mornings, however, it can be moved if necessary! Sign up for the Wednesday slot to claim my time that week, but then contact me to sort out an alternative day/time.</p>
+<p><strong><em>Reach out to me a day or two before your slot so that we can discuss your needs and strategize about how best to use the time!</em></strong></p>
+<p>If you are working towards a tight deadline, and you need help before the next available slot, contact me! I can often be flexible and give you time sooner if necessary.</p>
+</div>
+<div id="co-writing-thursdays" class="section level2 unnumbered hasAnchor">
+<h2>Co-Writing Thursdays<a href="#co-writing-thursdays" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Co-writing Thursdays are on hold for the summer! I will announce by email, mattermost, and/or dept meeting when we start back up in the fall.</em></strong></p>
+<p>Co-writing days take place every Thursday, and up to 4 people can join each day. We start at 9:30am and write until 5pm, following a set schedule of writing blocks and breaks. During writing sessions, we sit together in the same room and work quietly and independently on our own writing - writing together in this way can help with motivation and staying focused.</p>
+<p><strong><em>If you’d like to participate in a co-writing day, <a href="https://docs.google.com/spreadsheets/d/1xdXCNQEE3PODH2Q4aI1c7A3heXJXacsQPLYiY-1O2Ps/edit?usp=sharing">sign up here</a>!</em></strong> There is no long-term commitment required, and you’re welcome to sign up for as many or as few Thursdays as you want, as far in advance as you want!</p>
+<p>If there are no open spots, add your name to the waitlist and check back the day before to see if a slot has opened up!</p>
+<p>We need a minimum of 2 participants for the co-writing day to take place. Please check the sign up sheet on Wednesday at 17:00; Unfortunately, if you are the only person signed up for the next day, then co-writing is cancelled, sorry!!</p>
+</div>
+<div id="writing-retreat" class="section level2 unnumbered hasAnchor">
+<h2>Writing Retreat<a href="#writing-retreat" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, mattermost, and department meetings.</em></strong></p>
+<p>Writing retreats are an opportunity for department members to enjoy a change of pace and scenery, and devote some quality time to writing up their science in a collective and supportive environment.</p>
+<p>Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Towards the end of the week, everybody gets paired up and spends a half-day reading and giving feedback on their partner’s writing. We stay at a decent conference center or guesthouse usually about 1 to 2 hours outside of Konstanz, where breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.</p>
+<p>To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. At least 6 weeks before a Retreat, I check-in with each participant and we discuss what they’ll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor). Participants are welcome to reach out to me for any support they need to prepare for writing at the Retreat.</p>
+</div>
+<div id="miscellaneous" class="section level2 unnumbered hasAnchor">
+<h2>Miscellaneous<a href="#miscellaneous" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Whenever I am organizing an initiative or program, it will be advertised by email, mattermost, and/or department meetings.</em></strong></p>
+<p>Other programs that I can/have organize(d) and facilitate(d) include:</p>
+<ul>
+<li><p><strong>Practice Talk Days:</strong> When several department members are all going to present (talks and posters) at an upcomming conference, I organize and facilitate practice talk days. Each presenter gets a 30 to 45 minute slot, during which they give their talk (or walk the audience through their poster) and then afterwards everybody gives them feedback on everything from the framing/narrative of the presentation, to the aesthetics and comprehensibility of the slides/poster. Any department members are welcome to attend practice talk days to give feedback, and presenters are encouraged to invite whomever they feel could give them useful feedback (e.g., their supervisor or an external collaborator). <strong><em>If you and several other department members are presenting at an upcoming conference, please reach out to me a few weeks ahead of time so that I know to organize a practice talk day!</em></strong></p></li>
+<li><p><strong>Co-Writing Weeks:</strong> A co-writing week is basically half-way between a writing retreat and a co-writing day. For eight hours a day, from a Monday to a Friday, participants and I gather together in a conference room and follow a set schedule of writing blocks and breaks. Getting out of the office and away from the usual daily distractions, and writing together in a co-writing setting, can really help with writing focus and productivity. In addition to organizing and facilitating the week, I am available at any time to provide 1-on-1 writing support to anybody who needs it. <strong><em>If you have a big deadline coming up and you feel like you would benefit from a co-writing week, let me know! If we can round up a few more participants, then I can organize it!</em></strong></p></li>
+</ul>
+</div>
+<div id="got-an-idea" class="section level2 unnumbered hasAnchor">
+<h2>Got an idea?<a href="#got-an-idea" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Do you have an idea for another program that I could offer? Did you hear about a writing support initiative somewhere else that you think we should try here? Was there something at your last institute/job that you would like to see here at the EAS Dept?</p>
+<p>If you ever have an idea for an initiative or program that I could organize and/or facilitate, or some other means through which I could potentially support you and other department members in the communication of your research to scientific audiences, <strong><em>please let me know!</em></strong> I’m always keen to hear your ideas, brainstorm possible implementations, and give something new a try!</p>
+<!-- ## Writing Feedback Workshop {-} -->
+<!-- ctrl+shift+C the whole block to uncomment -->
+<!-- Do you have a manuscript that you're working on, and you're at a point where you'd really like to poll your future audience to find out what they think of the writing? Are you kinda stuck on a paper and not sure what direction to take it in terms of the story, framing, etc? Are you wondering if your manuscripts makes sense to anybody except you and your favorite co-author?  -->
+<!-- ***If so, let me know! We can organize a Writing Feedback Workshop for your manuscript!*** -->
+<!-- A Writing Feedback Workshop allows you to get a lot of feedback, from different points of view, on your manuscript. This feedback is focussed on the *writing* (not the science, per se), i.e., the focus is on *how* you have presented and communicated your study/research, rather than on the scientific value and validity of that study/research.  -->
+<!-- The way it works: -->
+<!-- 1. We set a time (at least 1 week in the future) and a place (could also be on zoom!) and advertise it to the department. -->
+<!-- 2. You fill out a special cover page that preemptively answers questions about the type of feedback you'd like to get. You attach this to your manuscript. -->
+<!-- 3. People who are interested in participating will contact you, and you send them your manuscript (with the cover page). -->
+<!-- 4. Participants (including myself) read your draft and put in comments and/or track-changes, and/or make notes about their feedback.  -->
+<!-- 5. During the time of the workshop, we go through the manuscript from start to end (and/or focus on the relevant sections). Participants can make suggestions, ask questions, give their impressions, etc. You, the author, can discuss these suggestions, ask questions, present alternatives, etc. It's basically just a helpful, friendly, discussion in which you receive ideas and suggestions on how you could improve the writing of your paper. I can facilitate this workshop for/with you, or you can take the lead if you want! -->
+<!-- 6. If participants feel that they have other important pieces of feedback that didn't get covered during the workshop, they can send you their annotated copies of the manuscript. -->
+<!-- 7. You consider participants' feedback carefully and critically, and move forward confidently with your manuscript writing! -->
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": "github"
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": false,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

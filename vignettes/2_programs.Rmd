@@ -49,15 +49,32 @@ We need a minimum of 2 participants for the co-writing day to take place. Please
 
 ## Writing Retreat {-}
 
-***When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, Mattermost, and department meetings.***
+***When a Writing Retreat is planned and applications are open, I will circulate information about the Retreat and how to apply via email, mattermost, and department meetings.***
 
 Writing retreats are an opportunity for department members to enjoy a change of pace and scenery, and devote some quality time to writing up their science in a collective and supportive environment.
 
-Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
+Each day at a Retreat, we set our goals in the morning, write independently together in a conference room throughout the day, and then reflect/check-in on our progress in the evenings. Towards the end of the week, everybody gets paired up and spends a half-day reading and giving feedback on their partner's writing. We stay at a decent conference center or guesthouse usually about 1 to 2 hours outside of Konstanz, where breakfast, lunch, and dinner are provided, as well as 2 coffee breaks each day. Participants are also welcome to plan/lead group activities (e.g. walks/hikes/jogs around the area, movie nights, yoga sessions, etc), and take alone time as they need.
 
 To get the most out of a Retreat, we want participants to arrive ready to write, which involves some preparatory work ahead of time. At least 6 weeks before a Retreat, I check-in with each participant and we discuss what they'll work on at the Retreat, where they are at in their writing preparation process, and further steps that they need to take before the Retreat (e.g. completing analyses, meeting with a collaborator or supervisor). Participants are welcome to reach out to me for any support they need to prepare for writing at the Retreat.
 
+## Miscellaneous {-}
 
+***Whenever I am organizing an initiative or program, it will be advertised by email, mattermost, and/or department meetings.***
+
+Other programs that I can/have organize(d) and facilitate(d) include:
+
+* **Practice Talk Days:** When several department members are all going to present (talks and posters) at an upcomming conference, I organize and facilitate practice talk days. Each presenter gets a 30 to 45 minute slot, during which they give their talk (or walk the audience through their poster) and then afterwards everybody gives them feedback on everything from the framing/narrative of the presentation, to the aesthetics and comprehensibility of the slides/poster. Any department members are welcome to attend practice talk days to give feedback, and presenters are encouraged to invite whomever they feel could give them useful feedback (e.g., their supervisor or an external collaborator). ***If you and several other department members are presenting at an upcoming conference, please reach out to me a few weeks ahead of time so that I know to organize a practice talk day!***
+
+* **Co-Writing Weeks:** A co-writing week is basically half-way between a writing retreat and a co-writing day. For eight hours a day, from a Monday to a Friday, participants and I gather together in a conference room and follow a set schedule of writing blocks and breaks. Getting out of the office and away from the usual daily distractions, and writing together in a co-writing setting, can really help with writing focus and productivity. In addition to organizing and facilitating the week, I am available at any time to provide 1-on-1 writing support to anybody who needs it. ***If you have a big deadline coming up and you feel like you would benefit from a co-writing week, let me know! If we can round up a few more participants, then I can organize it!***
+
+
+
+
+## Got an idea? {-}
+
+Do you have an idea for another program that I could offer? Did you hear about a writing support initiative somewhere else that you think we should try here? Was there something at your last institute/job that you would like to see here at the EAS Dept? 
+
+If you ever have an idea for an initiative or program that I could organize and/or facilitate, or some other means through which I could potentially support you and other department members in the communication of your research to scientific audiences, ***please let me know!*** I'm always keen to hear your ideas, brainstorm possible implementations, and give something new a try!
 
 
 <!-- ## Writing Feedback Workshop {-} -->
