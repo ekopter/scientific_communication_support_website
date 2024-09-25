@@ -31,17 +31,17 @@ Knowing how to arrange sentences within a paragraph is also really important. Ge
 
 Top-down paragraphs start with a sentence that states the **main message** of the paragraph, followed by a few sentences of **support** to substantiate the main message, and then they end with an **emphasis** sentence that states the most important aspect of the point being made (and also often serves as a transition towards the topic of the next paragraph). These paragraphs are useful when you want to discuss or review the evidence for a given fact or idea that your audience is likely generally familiar with or that is pretty straight-forward - you present this topic/idea, then back it up, then emphasize it's importance or relationship to an overarching topic and/or to the next point that you will make. This type of paragraph is common in paper Introductions, when an author presents a concept, then reviews literature related to that concept, then emphasizes the part of that concept that is most important for their study. 
 
-![Top-down example 1](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.001.jpeg)\
+![Top-down example 1](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.001.jpeg)\
 
-![Top-down example 2](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.002.jpeg)\
+![Top-down example 2](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.002.jpeg)\
 
 ### Bottom-up paragraphs {-}
 
 Bottom-up paragraphs start with an **introduction** sentence, followed by a few sentences of **analysis** to give context and/or to situate the main message, and then they end with the **main message** giving the 'take-away' point of the paragraph. These paragraphs are useful when you want to present a new or complex idea/point - you begin by introducing the general topic (start where you can be sure that your audience will be with you), then you build from there (giving context, analyzing relationships, etc) to the conclusion or take-away message that you want your audience to know. This type of paragraph is common in paper Discussions, when an author is presenting a result from their study, then contextualizing it in the literature, and giving the implication or take-home message related to that result.
 
-![Bottom-up example 1](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.003.jpeg)\
+![Bottom-up example 1](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.003.jpeg)\
 
-![Bottom-up example 2](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.004.jpeg)\
+![Bottom-up example 2](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.004.jpeg)\
 
 ### Sequence paragraphs {-}
 
@@ -49,7 +49,7 @@ Sequence paragraphs present information in ordered **steps**, from a start to an
 
 Bear in mind that even if you are presenting a sequence of events, you should still aim to paragraph your text into 3-6 sentence chunks, each with its own purpose and/or outcome. If you require many more sentences than this (if there are too many steps that absolutely cannot warrant their own purpose and/or outcome), and in the case of methodological procedures, consider reformatting your text into a numbered list of steps, rather than writing it out in paragraph-form.
 
-![Sequence](/Users/aashbury/Documents/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.005.jpeg)\
+![Sequence](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_6_Paragraphs/7_Blog_Paragraphs.005.jpeg)\
 
 
 ## One final note... {-}
