@@ -1,0 +1,28 @@
+---
+output: html_document
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      comment = "#>",
+                      collapse = TRUE)
+knitr::opts_knit$set(root.dir = '../')
+```
+
+# So you need to write a paper {.unlisted .unnumbered #HowToStart}
+
+If you're new to writing papers (or chapters, or theses, or science in general), figuring out how (and when and where) to start writing can feel quite daunting. Here, I've compiled some tips, suggestions, and best practice guidelines.
+
+## The Writing Process
+
+
+## Pre-Writing Checklist
+
+
+## Tips & Tricks
+
+1. Start with the last paragraph/section of the Intro ("Here, we...") and the first paragraph of the Discussion (summary of results). Nail these before moving on to other sections.
+
+2. Just write. Do whatever you need to do to turn off the critical part of your brain, and just get it down on paper. For some people, this means writing at weird times (late at night, early morning) or in non-work spaces (at a bar or coffee shop, on a train). For others, co-writing settings can be really helpful (join a co-writing day in my office, or gather some friends/colleagues and make your own!), or loud music, or beer. I've heard that free-writing or journalling just before a scientific writing session can help you empty your mind nd put other thoughts aside. Try different strategies and find something that works for you -- whatever it takes to let the words flow.

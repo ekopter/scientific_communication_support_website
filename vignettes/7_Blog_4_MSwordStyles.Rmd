@@ -39,11 +39,11 @@ The following instructions and screenshots are from MS Word for Mac v16.12 - so 
 
 1) Open a blank MS Word document, and go to **View > Sidebar > Navigation**. In the **HOME tab**, click on the button that says **Styles Pane**.You should see something that looks like this, with a blank sidebar down the left side, and the **Styles Pane** on the left...
 
-![Step 1](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.49.47.png)\
+![Step 1](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.49.47.png)\
 
 2) Hover your cursor over the button that says *Normal* until you see the down arrow on the right. Click on that, and then on "Modify Style".
 
-![Step 2](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.50.29.png)\
+![Step 2](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.50.29.png)\
 
 3) In the window that pops up, choose the font formatting to be what you want for the default, main text, of your writing. In this case, I've changed it to TNR, size 11. Click "OK".
 
@@ -51,18 +51,18 @@ The following instructions and screenshots are from MS Word for Mac v16.12 - so 
 
 4) Now, repeat steps 3 and 4 for each *Heading 1*, *Heading 2*, and *Heading 3* - changing each style to be what you want (in this case, I am making them all size 11 & black, and then Arial bold, TNR bold, and TNR italics respectively.) Note how the look of the different styles changes in the **Styles Pane** and also in the buttons across the top **HOME tab** ribbon.
 
-![Step 4](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.54.27.png)\
+![Step 4](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.54.27.png)\
 
 5) You can now close the **Styles Pane** and begin typing. Type some titles and some text. Highlight text that you want to be each type of style, and then click the appropriate button in the **HOME tab** ribbon...
-![Step 5a](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.57.53.png)\ 
+![Step 5a](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.57.53.png)\ 
 
 Notice how, as you highlight text and assign it a heading style, it will appear in the Navigation Bar on the left side of the screen. Subheadings will be indented under their over-headings. This is a really excellent way for you, your co-authors, and your proof-readers/reviewers to see the full overview of your MS.
 
-![Step 5b](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.59.26.png)\
+![Step 5b](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 15.59.26.png)\
 
 6) If you decide later that you want to change the aesthetics of a style - let's say that you want the subheadings (*Heading 2*) to be red, you can reopen the **Styles Pane**, and modify *Heading 2* to be red. When you click "OK", you'll see that all text which had been assigned to the style *Heading 2* has been updated to be red.
 
-![Step 6](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.08.27.png)\
+![Step 6](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.08.27.png)\
 
 
 
@@ -82,7 +82,7 @@ Another way of setting style aesthetics is to:
 
 4) In the **Styles Pane**, find the name of the specific style that you want the highlighted text to be (in the case of the below example, I want *Heading 4* to be size 10, TNR, light grey, italics), hover your cursor over the name, and then click on the down arrow on the right side. Select "Update to Match Selection".
 
-![Other Step 4](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.18.42.png)\
+![Other Step 4](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.18.42.png)\
 
 Now, that formatting has been applied to the *Headings 4* style. Also, if any other text in the document has already been classified as *Headings 4*, it will be changed to these new aesthetics. (Note, however, that other text which has that similar formatting, but has not yet been designated as *Headings 4* style, will need to be explicitly manually designated, it will not happen automatically.)
 
@@ -92,13 +92,13 @@ While I generally use *Styles* for the sake of easy mass-aesthetic changes and t
 
 To do this, first put your cursor where you want your table of contents to be (usually the beginning of your document). Then click on the **REFERENCES tab** and  choose **Table of Contents** from the ribbon, and pick a format from the drop-down menu. 
 
-![TOC 1](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.27.58.png)\
+![TOC 1](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.27.58.png)\
 
 Note that, in a cruel twist of fate, table of contents entries have their OWN styles (separate from Headings styles), so the aesthetics that you've applied to your heading styles won't transfer over into the TOC, only the *content* of those styles (i.e. the text). Super annoying.
 
 If you want to change the aesthetics of your table of contents, reopen the **Styles Pane** in your document, and - now that you've added a table of contents - you will see new styles called *TOC 1*, *TOC 2*, etc. You can update/modify these styles to match your Heading styles (or not, whatever you want!).
 
-![TOC 2](/Users/aashbury/Static Docs/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.37.16.png)\
+![TOC 2](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_4_MSwordStyles_screenshots/Screenshot 2022-08-08 at 16.37.16.png)\
 
 ## Beware {-}
 
