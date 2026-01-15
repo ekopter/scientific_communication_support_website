@@ -21,7 +21,7 @@ The following slides link to the keynote presentations from the workshop/discuss
 
 On the first day, we began the series by discussing what "effective scientific writing" actually means, and then we talked in more detail about the *mechanics* (content, structure, and language) of effective writing.
 
-| [![Day 1, 01 June](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_5_Sci_Writ_EAS_series/Day 1/Day 1.006.jpeg)](https://github.com/ekopter/scientific_communication_support_website/blob/main/pdfs/Sci_Writ_EAS_series/Day_1.pdf){target="_blank"} |
+| [![Day 1, 01 June](/Users/aashbury/Documents/Work/Service and Support/scientific_communication_support_website/vignettes/7_Blog_5_Sci_Writ_EAS_series/Day 1/Day 1.006.jpeg)](https://github.com/ekopter/scientific_communication_support_website/pdfs/Sci_Writ_EAS_series/Day_1.pdf){target="_blank"} |
 |-|
 
 ## Day 2 {-}
